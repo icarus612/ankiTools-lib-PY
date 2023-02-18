@@ -1,0 +1,48 @@
+は | wa | topic marker | marks the topic of a sentence | | 私は学生です。 | I am a student.
+が | ga | subject marker | marks the subject of a sentence | | 彼が来ます。 | He will come.
+を | o | object marker | marks the direct object of a sentence | | 私は本を読みます。 | I read a book.
+に | ni | direction marker | marks the direction of an action | | 私は家に帰ります。 | I am going home.
+で | de | connecting marker | marks the location of an action | | 公園で遊びます。 | I play in the park.
+と | to | quotative marker | quotes what someone says | | 彼は「こんにちは」と言いました。 | He said, 'Hello.'
+から | kara | from marker | marks the starting point of a range | | 学校から家まで歩きます。 | I walk from school to home.
+まで | made | until marker | marks the end point of a range | | 9時まで勉強します。 | I will study until 9.
+や | ya | and marker | used to connect items in a list | | 私はジュースやコーヒーを飲みます。 | I drink juice and coffee.
+も | mo | also marker | emphasizes the inclusiveness of a subject | | 私も行きます。 | I will go too.
+の | no | possessive marker | shows ownership or relationship | | 私の本 | My book
+には | ni wa | in marker | marks the location of something | | 家には犬がいます。 | There is a dog in the house.
+か | ka | question marker | used to form a question | | それは何ですか？ | What is that?
+ので | node | because marker | shows cause and reason | | 雨ので、遠足はキャンセルされました。 | Because it's raining, the field trip was cancelled.
+がいい | ga ii | good subject marker | shows a good choice | | ここがいいです。 | This is good.
+かもしれない | kamoshirenai | might be | shows uncertainty | | 彼が来るかもしれません。 | He might come.
+ね | ne | agreement marker | used for seeking agreement | | そうね。 | Right?
+といった | toitta | such as | introduces examples | | 果物といったものを買いました。 | I bought things like fruit.
+だ | da | copula | links the subject and predicate | | 彼は先生だ。 | He is a teacher.
+ば | ba | if marker | introduces a conditional clause | | 雨が降らなければ、遠足に行きます。 | If it doesn't rain, I will go on the field trip.
+がいいと思います | ga ii to omoimasu | I think it is good | | gives opinion | 彼女がいいと思います。 | I think she's good.
+からだ | karada | body | refers to the body | | からだが大切です。 | Taking care of the body is important.
+です | desu | polite copula | polite form of the copula "da" | | これは本です。 | This is a book.
+こと | koto | thing | general term for something | | ことが大切です。 | Things are important.
+かも | kamo | maybe | shows uncertainty | | 彼が来るかもしれません。 | He may come.
+と | to | with marker | marks accompaniment | | 彼女と一緒に行きましょう。 | Let's go with her.
+よ | yo | emphasis marker | adds emphasis to a sentence | | それが彼の意見ですよ。 | That's his opinion.
+から | kara | because marker | shows cause and reason | | 彼が来ないから、私は行きません。 | I won't go because he's not coming.
+て | te | gerund marker | shows continuing action | | 彼が勉強しています。 | He is studying.
+か | ka | or marker | used to present alternatives | | 彼女と一緒に行きますか？ | Will you go with her or not?
+という | to iu | so-called | introduces a label or nickname | | 彼女は「アリス」という名前です。 | Her name is Alice.
+た | ta | past tense marker | marks past tense | | 彼女が来た。 | She came.
+ように | you ni | in order to | shows purpose | | 彼女が幸せになるように頑張ります。 | I will do my best so that she becomes happy.
+な | na | interjection marker | adds emphasis or indicates emotion | | 彼女は美しいな。 | She is beautiful, isn't she?
+と思います | to omoimasu | I think | gives opinion | | 彼女は美しいと思います。 | I think she is beautiful.
+ます | masu | polite verb ending | makes a verb polite | | 彼は勉強します。 | He studies.
+のに | noni | despite marker | shows contrast | | 彼女が美しいのに、彼は好きではない。 | Despite her being beautiful, he doesn't like her.
+ところ | tokoro | place | refers to a location | | 彼女がいるところが知りたい。 | I want to know where she is.
+は | wa | topic marker | marks the topic of a sentence | 私は学生です | I am a student.
+ところが | tokoro ga | but | shows contrast | 彼は英語が上手だところが、フランス語はまだ下手です | He is good at English, but he is still bad at French.
+といっても | to itte mo | even though | shows contrast | 彼女は美しいといっても、性格が悪い | Even though she is beautiful, her personality is bad.
+といったら | to ittara | if you say | introduces a hypothetical scenario | 彼が来たら、話をしましょう | If he comes, let's talk.
+とか | toka | etcetera | used to include additional items in a list | 私たちはジョギングとか、映画鑑賞をします | We do things like jogging and movie watching, etc.
+が | ga | contrast marker | shows contrast | 私は学生ですが、彼は先生です | I am a student, but he is a teacher.
+と言って | to itte | so-called | introduces a label or nickname | 彼は「Mr. Smith」と言って呼ばれています | He is referred to as 'Mr. Smith.'
+について | ni tsuite | regarding | introduces a topic | 彼女について話しましょう | Let's talk about her.
+でも | demo | but | shows contrast | 彼女は美しいですが、性格が悪いです | She is beautiful, but her personality is bad.
+と考えます | to kangaemasu | I think | gives opinion | 私はこれは大変だと考えます | I think this is difficult.

@@ -1,0 +1,50 @@
+は | wa | topic marker | marks the topic of a sentence | | | わたしは にほんごが すこししか はなせません。 | Watashi wa nihongo ga sukoshi shika hanasemasen. | I can only speak a little Japanese.
+が | ga | subject marker | marks the subject of a sentence | | | わたしが にほんごを べんきょうしています。 | Watashi ga nihongo o benkyō shite imasu. | I am studying Japanese.
+を | o | object marker | marks the object of a sentence | | | わたしは にほんごを はなせます。 | Watashi wa nihongo o hanasemasu. | I can speak Japanese.
+に | ni | location/time marker | marks a location or time | | | わたしは にほんに いきたいです。 | Watashi wa Nihon ni ikitai desu. | I want to go to Japan.
+で | de | method marker | marks the method or means by which an action is performed | | | くるまで うちに かえります。 | Kuruma de uchi ni kaerimasu. | I will go home by car.
+と | to | and, with | marks a list of items or persons | | | にほんごと えいごが はなせます。 | Nihongo to Eigo ga hanasemasu. | I can speak Japanese and English.
+も | mo | also, too | marks similarity or addition | | | わたしも にほんごが すこししか はなせません。 | Watashi mo Nihongo ga sukoshi shika hanasemasen. | I can only speak a little Japanese too.
+へ | e | direction marker | marks direction of movement | | | にほんへ いきたいです。 | Nihon e ikitai desu. | I want to go to Japan.
+から | kara | from | marks the starting point or cause of an action | | | にほんから きました。 | Nihon kara kimashita. | I came from Japan.
+まで | made | until | marks the end point of an action | | | にほんごを めざして べんきょうしています。あと ５ねん がんばります。 | Nihongo o mezashite benkyō shite imasu. Ato go-nen ganbarimasu. | I am studying to aim for Japanese. I will work hard for another 5 years.
+より | yori | than, from | compares two things or indicates the source of something | | | りんごより ばなながすきです。| Ringo yori banana ga suki desu. | I like bananas more than apples.
+ね | ne | question particle, seeking agreement | seeks agreement or confirmation | | | あのひとはやさしいね。| Ano hito wa yasashii ne. | That person is kind, right?
+よ | yo | exclamation particle, emphasis | adds emphasis or emotion to a sentence | | | おいしいよ！| Oishii yo! | It's delicious!
+か | ka | question particle | indicates a question | | | きょうはあめがふっていますか。| Kyou wa ame ga futte imasu ka? | Is it raining today?
+の | no | possessive particle, nominalizer | indicates possession or turns a verb into a noun | | | あたしのともだちはじめです。| Atashi no tomodachi wa hajime desu. | My friend is a beginner.
+だけ | dake | only | indicates limit or restriction | | | しゅくだいを いちじかん だけ して、あとはあそびます。| Shukudai wo ichijikan dake shite, ato wa asobimasu. | I'll only do homework for one hour and then play.
+しか | shika | only | indicates that nothing other than the specified thing is allowed or possible | | | わたしはにほんごしかはなせません。| Watashi wa nihongo shika hanasemasen. | I can only speak Japanese.
+だって | datte | but, because, even | indicates a contradiction, a reason, or emphasis | | | あのひとはわたしのともだちだって。| Ano hito wa watashi no tomodachi datte. | That person is my friend, because...
+でも | demo | but, however | indicates a contrast or concession | | | びょうきです。でも、かいしゃにいきます。| Byouki desu. Demo, kaisha ni ikimasu. | I'm sick, but I'm going to work.
+だってば | datteba | emphatic particle, assertion | adds emphasis to a statement or complaint | | | もうやめてくれだってば！| Mou yamete kure datteba! | I said, stop it already!
+ばかり | bakari | only; just | indicates that the action of the sentence is the only thing happening | | | わたしは かばんに ほんが ひとつ ばかり いれました。 | Watashi wa kaban ni hon ga hitotsu bakari iremashita. | I only put one book in the bag.
+ほど | hodo | extent | indicates the extent of something | | | あの ねこは ひろい ほど おおきくなる。 | Ano neko wa hiroi hodo ookiku naru. | That cat will grow as big as the space it has.
+など | nado | and so on; etc. | indicates that there are other things in the same category | | | いろいろな たべものが あります。すしや やきにくなど。 | Iroirona tabemono ga arimasu. Sushiya yakiniku nado. | There are various foods such as sushi and grilled meat.
+ずつ | zutsu | each; at a time | indicates that something is done for each item | | | りんごを さんびきずつ あげました。 | Ringo o sanbikizutsu agemashita. | I gave three apples each.
+に対して | nitaishte | regarding; towards | indicates the target of the action or state | | | きょうしつの せんせいに しつもんを しました。 | Kyoshitsu no sensei ni shitsumon o shimashita. | I asked a question to the teacher in the classroom.
+にとって | nitotte | for; to | indicates the importance or value of something to someone | | | あのひとにとって かぞくが いちばん たいせつです。 | Ano hito ni totte kazoku ga ichiban taisetsu desu. | Family is the most important thing for that person.
+によって | niyotte | by; due to | indicates the reason or cause of something | | | ひこうきは てんきによって ちがうひこうじかんが かかります。 | Hikouki wa tenki ni yotte chigau hikou jikan ga kakarimasu. | The flight time varies due to weather.
+によると | niyoruto | according to | indicates the source of information | | | てんきよほうによると あしたは あめです。 | Tenki yohou ni yoru to ashita wa ame desu. | According to the weather forecast, it will rain tomorrow.
+ので | node | therefore; because of that | indicates the reason or cause of something | | | あまり にほんごが じょうずじゃないので、がんばります。 | Amari nihongo ga jouzu janai node, ganbarimasu. | I'm working hard because I'm not good at Japanese.
+のに | noni | although | indicates a contrast between two clauses | | | あめが ふっているのに さんぽに いく。 | Ame ga futteiru noni sanpo ni iku. | Although it's raining, I'll go for a walk.
+なら | nara | if | indicates a hypothetical condition and its result | | | あした あめが ふるなら、ピクニックは やめよう。 | Ashita ame ga furu nara, pikunikku wa yameyou. | If it rains tomorrow, let's cancel the picnic.
+まま | mama | as it is | indicates a state that remains unchanged | | | じゅぎょうが おわって、いすに すわったまま ねてしまった。 | Jugyou ga owatte, isu ni suwatta mama neteshimatta. | After finishing class, I fell asleep sitting in the chair as it was.
+もの | mono | thing | indicates an abstract or indefinite thing | | | いいものを かいたい。 | Ii mono o kaitai. | I want to buy a good thing.
+たち | tachi | plural marker | indicates a plural noun | | | ともだちが きた。 | Tomodachi ga kita. | Friends came.
+ても | temo | even if | indicates a concession or supposition | | | あめが ふってても、わたしは でかけます。 | Ame ga futte temo, watashi wa dekakemasu. | Even if it's raining, I will go out.
+ては | tewa | if | indicates a conditional action | | | うちに かえっては れんらくを します。 | Uchi ni kaette wa renraku o shimasu. | If I go home, I will contact you.
+てば | teba | if | indicates a conditional action | | | にほんごが わかれば、にほんに すむことが できます。 | Nihongo ga wakareba, Nihon ni sumu koto ga dekimasu. | If you understand Japanese, you can live in Japan.
+として | toshite | as | indicates a standard or a role | | | わたしは かれの おしゅじんとして でんわに でた。 | Watashi wa kare no oshujin toshite denwa ni deta. | I answered the phone as his wife.
+としても | toshitemo | even as | indicates a concession or an extreme example | | | こんなに しんぱいしても、ともだちに けんかされたら かなわない。 | Konnani shinpai shitemo, tomodachi ni kenka sare tara kanawanai. | Even if I worry so much, I won't be able to deal with it if I fight with my friend.
+とともに | totomoni | with | along with, together with | | | わたしは ともだちと とともに いきます。| Watashi wa tomodachi to totomoni ikimasu. | I go with my friend.
+について | nitsuite | about | concerning, regarding | | | この しょうゆについて しりたいことが ありますか。| Kono shouyu nitsuite shiritai koto ga arimasu ka. | Do you have any questions about this soy sauce?
+に関して | nikanshite | concerning | in relation to, with regard to | | | この もんだい に かんして、あなたは どう おもいますか。 | Kono mondai nikanshite, anata wa dou omoimasu ka. | What do you think about this problem?
+につき | nitsuki | per | per, each, every | | | ひとりにつき、ふたまいのチケットをください。| Hitori nitsuki, nimai no chiketto o kudasai. | Please give me two tickets per person.
+ねば | neba | if not | unless, without | | | やくいかないと、おくれてしまうねばならない。| Hayaku ikanai to, okurete shimau neba naranai. | If we don't hurry, we'll be late.
+ねん | nen | years | years | | | わたしは　にじゅうさんねんです。 | Watashi wa nijuusan nen desu. | I am 23 years old.
+ぶり | buri | after an interval of time | after, for the first time in | | | あのえいがは、5ねんぶりにぞくへんがつくられました。 | Ano eiga wa, go-nen buri ni tsuzuki-hen ga tsukuraremashita. | A sequel to that movie was made for the first time in five years.
+べき | beki | should, must | should, ought to | | | わたしたちは かんきょうを まもるべきです。 | Watashitachi wa kankyou o mamoru beki desu. | We should protect the environment.
+もん | mon | reason | reason, cause | | | それは、てんきの わるさが もんです。 | Sore wa, tenki no warusa ga mon desu. | That's because of the bad weather.
+ように | youni | so that, in order to | in a way, so that | | | わたしたちは ぜんりょくで べんきょうするように がんばります。 | Watashitachi wa zenryoku de benkyou suru youni ganbarimasu. | We will do our best to study as much as possible.
+わけ | wake | reason | reason, explanation | | | それは、しごとがいそがしかったわけです。 | Sore wa, shigoto ga isogashikatta wake desu. | That's because I was busy with work.
