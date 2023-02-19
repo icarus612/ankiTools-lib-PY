@@ -1,7 +1,6 @@
-
-
 def split(deck): 
   return [line.split('\t') for line in deck.readlines()]
+
 new_items = set()
 
 with open("./current-anki-vocab.txt") as vocab, open("./current-anki-words.txt") as words, open("./particles-full.txt") as cards, open("./particles-final.txt", "w") as final:   
@@ -23,4 +22,4 @@ with open("./current-anki-vocab.txt") as vocab, open("./current-anki-words.txt")
         card[4] = v[2]
         new_items.add(card[0])
     
-  final.writelines([" | ".join(card) for card in new_cards])
+  final.writelines(["\t".join(card) for card in new_cards])
