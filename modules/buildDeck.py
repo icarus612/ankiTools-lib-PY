@@ -1,5 +1,9 @@
+import os 
+import  argparse
+
 def split(deck): 
   return [line.split('\t') for line in deck.readlines()]
+
 
 new_items = set()
 
