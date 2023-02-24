@@ -9,6 +9,7 @@ with open("./current-anki-vocab.txt") as vocab, open("./current-anki-words.txt")
   new_words = split(words)
 
   for card in new_cards:
+    card[4] = False
     for w in new_words:
       if any(bool(i) and i in card for i in w[:3]):
         card[4] = w[3]
