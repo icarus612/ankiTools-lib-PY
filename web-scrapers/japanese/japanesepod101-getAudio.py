@@ -4,7 +4,6 @@ import json
 
 
 path = 'audio-files'
-audio_files = {}
 
 try: 
   os.mkdir(path)
