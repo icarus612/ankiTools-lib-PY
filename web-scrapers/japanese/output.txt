@@ -1,0 +1,114 @@
+は | wa | is | subject marker, marks the subject of a sentence | [sound:ic_jp_wa.mp3] |  | わたしは にほんごが すこししか はなせません。 | Watashi wa nihongo ga sukoshi shika hanasemasen. | I can only speak a little Japanese. | 
+が | ga | is | subject marker, marks the subject of a sentence | [sound:ic_jp_ga.mp3] |  | わたしが にほんごを べんきょうしています。 | Watashi ga nihongo o benkyō shite imasu. | I am studying Japanese. | 
+を | o | object marker | marks the object of a sentence | [sound:ic_jp_o.mp3] |  | わたしは にほんごを はなせます。 | Watashi wa nihongo o hanasemasu. | I can speak Japanese. | 
+に | ni | to/at | direction marker, marks the destination of an action | [sound:ic_jp_ni.mp3] |  | わたしは にほんに いきたいです。 | Watashi wa Nihon ni ikitai desu. | I want to go to Japan. | 
+で | de | by/at | location marker, marks the location of an action | [sound:ic_jp_de.mp3] |  | くるまで うちに かえります。 | Kuruma de uchi ni kaerimasu. | I will go home by car. | 
+と | to | with | conjunction marker, marks a connection between two clauses | [sound:ic_jp_to.mp3] |  | にほんごと えいごが はなせます。 | Nihongo to Eigo ga hanasemasu. | I can speak Japanese and English. | 
+から | kara | from | origin marker, marks the origin of an action | [sound:ic_jp_kara.mp3] |  | にほんから きました。 | Nihon kara kimashita. | I came from Japan. | 
+まで | made | until | endpoint marker, marks the endpoint of a range or interval | [sound:ic_jp_made.mp3] |  | にほんごを めざして べんきょうしています。あと ５ねん がんばります。 | Nihongo o mezashite benkyō shite imasu. Ato go-nen ganbarimasu. | I am studying to aim for Japanese. I will work hard for another 5 years. | 
+や | ya | and | conjunction marker, marks a connection between two clauses | [sound:ic_jp_ya.mp3] |  | 私はジュースやコーヒーを飲みます。 |  | I drink juice and coffee. | 
+も | mo | also | inclusive marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_mo.mp3] |  | わたしも にほんごが すこししか はなせません。 | Watashi mo Nihongo ga sukoshi shika hanasemasen. | I can only speak a little Japanese too. | 
+の | no | of | partitive marker, marks possession or association | [sound:ic_jp_no.mp3] |  | あたしのともだちはじめです。 | Atashi no tomodachi wa hajime desu. | My friend is a beginner. | 
+か | ka | or | question marker, marks a yes/no question | [sound:ic_jp_ka.mp3] |  | きょうはあめがふっていますか。 | Kyou wa ame ga futte imasu ka? | Is it raining today? | 
+ので | node | therefore; because of that | indicates the reason or cause of something | [sound:ic_jp_node.mp3] |  | あまり にほんごが じょうずじゃないので、がんばります。 | Amari nihongo ga jouzu janai node, ganbarimasu. | "I'm working hard because I'm not good at Japanese." | 
+ね | ne | question particle, seeking agreement | seeks agreement or confirmation | [sound:ic_jp_ne.mp3] |  | あのひとはやさしいね。 | Ano hito wa yasashii ne. | That person is kind, right? | 
+だ | da | copula | links the subject and predicate | [sound:ic_jp_da.mp3] |  | 彼は先生だ。 |  | He is a teacher. | 
+ば | ba | if marker | introduces a conditional clause | [sound:ic_jp_ba.mp3] |  | 雨が降らなければ、遠足に行きます。 |  | "If it doesn't rain, I will go on the field trip." | 
+からだ | karada | body | refers to the body | [sound:ic_jp_karada.mp3] |  | からだが大切です。 |  | Taking care of the body is important. | 
+です | desu | polite copula | "polite form of the copula ""da""" | [sound:ic_jp_desu.mp3] |  | これは本です。 |  | This is a book. | 
+こと | koto | thing | general term for something | [sound:ic_jp_koto.mp3] |  | ことが大切です。 |  | Things are important. | 
+かも | kamo | perhaps | uncertainty marker, expresses uncertainty about something | [sound:ic_jp_kamo.mp3] |  | 彼が来るかもしれません。 |  | He may come. | 
+よ | yo | so | conclusion marker, marks the conclusion of an action | [sound:ic_jp_yo.mp3] |  | おいしいよ！ | Oishii yo! | "It's delicious!" | 
+て | te | gerund marker | shows continuing action | [sound:ic_jp_te.mp3] |  | 彼が勉強しています。 |  | He is studying. | 
+た | ta | past tense marker | marks past tense | [sound:ic_jp_ta.mp3] |  | 彼女が来た。 |  | She came. | 
+ように | youni | so that, in order to | in a way, so that | [sound:ic_jp_youni.mp3] |  | わたしたちは ぜんりょくで べんきょうするように がんばります。 | Watashitachi wa zenryoku de benkyou suru youni ganbarimasu. | We will do our best to study as much as possible. | 
+な | na | interjection marker | adds emphasis or indicates emotion | [sound:ic_jp_na.mp3] |  | 彼女は美しいな。 |  | "She is beautiful, isn't she?" | 
+ます | masu | polite verb ending | makes a verb polite | [sound:ic_jp_masu.mp3] |  | 彼は勉強します。 |  | He studies. | 
+のに | noni | despite | contrast marker, marks a contrast between two clauses | [sound:ic_jp_noni.mp3] |  | あめが ふっているのに さんぽに いく。 | Ame ga futteiru noni sanpo ni iku. | "Although it's raining, I'll go for a walk." | 
+ところ | tokoro | at this point/now | temporal marker, marks a sequence of actions or occurrences | [sound:ic_jp_tokoro.mp3] |  | 彼女がいるところが知りたい。 |  | I want to know where she is. | 
+とか | toka | etcetera | used to include additional items in a list | [sound:ic_jp_toka.mp3] |  |  |  |  | 
+について | nitsuite | about | concerning, regarding | [sound:ic_jp_nitsuite.mp3] |  | この しょうゆについて しりたいことが ありますか。 | Kono shouyu nitsuite shiritai koto ga arimasu ka. | Do you have any questions about this soy sauce? | 
+でも | demo | but, however | indicates a contrast or concession | [sound:ic_jp_demo.mp3] |  | びょうきです。でも、かいしゃにいきます。 | Byouki desu. Demo, kaisha ni ikimasu. | "I'm sick, but I'm going to work." | 
+へ | e | to | direction marker, marks the destination of an action | [sound:ic_jp_e.mp3] |  | にほんへ いきたいです。 | Nihon e ikitai desu. | I want to go to Japan. | 
+より | yori | than | inclusion marker, marks the inclusion of one element within another | [sound:ic_jp_yori.mp3] |  | りんごより ばなながすきです。 | Ringo yori banana ga suki desu. | I like bananas more than apples. | 
+だけ | dake | only | limit marker, marks the limit of an action | [sound:ic_jp_dake.mp3] |  | しゅくだいを いちじかん だけ して、あとはあそびます。 | Shukudai wo ichijikan dake shite, ato wa asobimasu. | "I'll only do homework for one hour and then play." | 
+だって | datte | because | explanation marker, marks the explanation of an action or occurrence | [sound:ic_jp_datte.mp3] |  | あのひとはわたしのともだちだって。 | Ano hito wa watashi no tomodachi datte. | That person is my friend, because... | 
+ばかり | bakari | only; just | indicates that the action of the sentence is the only thing happening | [sound:ic_jp_bakari.mp3] |  | わたしは かばんに ほんが ひとつ ばかり いれました。 | Watashi wa kaban ni hon ga hitotsu bakari iremashita. | I only put one book in the bag. | 
+ほど | hodo | extent | indicates the extent of something | [sound:ic_jp_hodo.mp3] |  | あの ねこは ひろい ほど おおきくなる。 | Ano neko wa hiroi hodo ookiku naru. | That cat will grow as big as the space it has. | 
+など | nado | and so on/etc. | non-exhaustive listing marker, marks an incomplete list of items | [sound:ic_jp_nado.mp3] |  | いろいろな たべものが あります。すしや やきにくなど。 | Iroirona tabemono ga arimasu. Sushiya yakiniku nado. | There are various foods such as sushi and grilled meat. | 
+ずつ | zutsu | each; at a time | indicates that something is done for each item | [sound:ic_jp_zutsu.mp3] |  | りんごを さんびきずつ あげました。 | Ringo o sanbikizutsu agemashita. | I gave three apples each. | 
+にとって | nitotte | for; to | indicates the importance or value of something to someone | [sound:ic_jp_nitotte.mp3] |  | あのひとにとって かぞくが いちばん たいせつです。 | Ano hito ni totte kazoku ga ichiban taisetsu desu. | Family is the most important thing for that person. | 
+によって | niyotte | by; due to | indicates the reason or cause of something | [sound:ic_jp_niyotte.mp3] |  | ひこうきは てんきによって ちがうひこうじかんが かかります。 | Hikouki wa tenki ni yotte chigau hikou jikan ga kakarimasu. | The flight time varies due to weather. | 
+によると | niyoruto | according to | indicates the source of information | [sound:ic_jp_niyoruto.mp3] |  | てんきよほうによると あしたは あめです。 | Tenki yohou ni yoru to ashita wa ame desu. | According to the weather forecast, it will rain tomorrow. | 
+なら | nara | if | indicates a hypothetical condition and its result | [sound:ic_jp_nara.mp3] |  | あした あめが ふるなら、ピクニックは やめよう。 | Ashita ame ga furu nara, pikunikku wa yameyou. | "If it rains tomorrow, let's cancel the picnic." | 
+てば | teba | if | indicates a conditional action | [sound:ic_jp_teba.mp3] |  | にほんごが わかれば、にほんに すむことが できます。 | Nihongo ga wakareba, Nihon ni sumu koto ga dekimasu. | If you understand Japanese, you can live in Japan. | 
+として | toshite | as | indicates a standard or a role | [sound:ic_jp_toshite.mp3] |  | わたしは かれの おしゅじんとして でんわに でた。 | Watashi wa kare no oshujin toshite denwa ni deta. | I answered the phone as his wife. | 
+としても | toshitemo | even as | indicates a concession or an extreme example | [sound:ic_jp_toshitemo.mp3] |  | こんなに しんぱいしても、ともだちに けんかされたら かなわない。 | Konnani shinpai shitemo, tomodachi ni kenka sare tara kanawanai. | "Even if I worry so much, I won't be able to deal with it if I fight with my friend." | 
+とともに | totomoni | with | along with, together with | [sound:ic_jp_totomoni.mp3] |  | わたしは ともだちと とともに いきます。 | Watashi wa tomodachi to totomoni ikimasu. | I go with my friend. | 
+<div><div><div><div><div><div><div>にかんして</div></div></div></div></div></div></div> | nikanshite | concerning | in relation to, with regard to | [sound:ic_jp_nikanshite.mp3] |  | この もんだい に かんして、あなたは どう おもいますか。 | Kono mondai nikanshite, anata wa dou omoimasu ka. | What do you think about this problem? | 
+につき | nitsuki | per | per, each, every | [sound:ic_jp_nitsuki.mp3] |  | ひとりにつき、ふたまいのチケットをください。 | Hitori nitsuki, nimai no chiketto o kudasai. | Please give me two tickets per person. | 
+ねん | nen | years | years | [sound:ic_jp_nen.mp3] |  | わたしは　にじゅうさんねんです。 | Watashi wa nijuusan nen desu. | I am 23 years old. | 
+ぶり | buri | after an interval of time | after, for the first time in | [sound:ic_jp_buri.mp3] |  | あのえいがは、5ねんぶりにぞくへんがつくられました。 | Ano eiga wa, go-nen buri ni tsuzuki-hen ga tsukuraremashita. | A sequel to that movie was made for the first time in five years. | 
+べき | beki | should, must | should, ought to | [sound:ic_jp_beki.mp3] |  | わたしたちは かんきょうを まもるべきです。 | Watashitachi wa kankyou o mamoru beki desu. | We should protect the environment. | 
+もん | mon | reason | reason, cause | [sound:ic_jp_mon.mp3] |  | それは、てんきの わるさが もんです。 | Sore wa, tenki no warusa ga mon desu. | "That's because of the bad weather." | 
+わけ | wake | reason | reason, explanation | [sound:ic_jp_wake.mp3] |  | それは、しごとがいそがしかったわけです。 | Sore wa, shigoto ga isogashikatta wake desu. | "That's because I was busy with work." | 
+やら | yara | and so on/etc. | non-exhaustive listing marker, marks an incomplete list of items | [sound:ic_jp_yara.mp3] |  |  |  |  | 
+かな | kana | I wonder | speculation marker, expresses speculation about something | [sound:ic_jp_kana.mp3] |  |  |  |  | 
+かしら | kashira | I wonder | speculation marker, expresses speculation about something | [sound:ic_jp_kashira.mp3] |  |  |  |  | 
+ごと | goto | altogether | totality marker, marks the entirety of an action | [sound:ic_jp_goto.mp3] |  |  |  |  | 
+どころ | dokoro | let alone | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_dokoro.mp3] |  |  |  |  | 
+かぎり | kagiri | as far as/to the extent that | limit marker, marks the limit of an action | [sound:ic_jp_kagiri.mp3] |  |  |  |  | 
+なく | naku | without | negation marker, negates an action or occurrence | [sound:ic_jp_naku.mp3] |  |  |  |  | 
+なり | nari | become/changing into | change marker, marks a transition from one state to another | [sound:ic_jp_nari.mp3] |  |  |  |  | 
+ゆえ | yue | therefore | consequence marker, marks the consequence of an action | [sound:ic_jp_yue.mp3] |  |  |  |  | 
+そして | soshite | and then | temporal marker, marks a sequence of actions or occurrences | [sound:ic_jp_soshite.mp3] |  |  |  |  | 
+けど | kedo | however | contrast marker, marks a contrast between two clauses | [sound:ic_jp_kedo.mp3] |  |  |  |  | 
+なお | nao | besides/in addition | additive marker, adds elements to a previous statement | [sound:ic_jp_nao.mp3] |  |  |  |  | 
+なか | naka | inside/among/within | location marker, marks the location of an action | [sound:ic_jp_naka.mp3] |  |  |  |  | 
+なんて | nante | such/like/how | exclamation marker, expresses surprise or amazement | [sound:ic_jp_nante.mp3] |  |  |  |  | 
+きり | kiri | after/since | temporal marker, marks a sequence of actions or occurrences | [sound:ic_jp_kiri.mp3] |  |  |  |  | 
+さえ | sae | even | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_sae.mp3] |  |  |  |  | 
+それとも | soretomo | or | alternative marker, marks an alternative action or occurrence | [sound:ic_jp_soretomo.mp3] |  |  |  |  | 
+かた | kata | how | question marker, marks an interrogative clause | [sound:ic_jp_kata.mp3] |  |  |  |  | 
+けれども | keredomo | but | contrast marker, marks a contrast between two clauses | [sound:ic_jp_keredomo.mp3] |  |  |  |  | 
+そういう | souiu | such/like that | demonstrative marker, marks the object of the sentence | [sound:ic_jp_souiu.mp3] |  |  |  |  | 
+それぞれ | sorezore | each/respectively | distributive marker, marks the distribution of an action or occurrence | [sound:ic_jp_sorezore.mp3] |  |  |  |  | 
+なんか | nanka | somehow/something | non-specific marker, expresses non-specificity about something | [sound:ic_jp_nanka.mp3] |  |  |  |  | 
+およそ | oyoso | about/approximately | approximation marker, expresses approximation about something | [sound:ic_jp_oyoso.mp3] |  |  |  |  | 
+そもそも | somosomo | in the first place | initiation marker, marks the initiation of an action or occurrence | [sound:ic_jp_somosomo.mp3] |  |  |  |  | 
+そうして | soushite | and so/thereupon | temporal marker, marks a sequence of actions or occurrences | [sound:ic_jp_soushite.mp3] |  |  |  |  | 
+それに | soreni | besides/in addition | additive marker, adds elements to a previous statement | [sound:ic_jp_soreni.mp3] |  |  |  |  | 
+はず | hazu | should/ought to | expectation marker, expresses expectations about something | [sound:ic_jp_hazu.mp3] |  |  |  |  | 
+とも | tomo | also | inclusive marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_tomo.mp3] |  |  |  |  | 
+しかも | shikamo | moreover | additive marker, adds elements to a previous statement | [sound:ic_jp_shikamo.mp3] |  |  |  |  | 
+こそ | koso | indeed | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_koso.mp3] |  |  |  |  | 
+かならず | kanarazu | without fail/certainly | certainty marker, expresses certainty about something | [sound:ic_jp_kanarazu.mp3] |  |  |  |  | 
+もしかすると | moshikasuruto | perhaps/maybe | uncertainty marker, expresses uncertainty about something | [sound:ic_jp_moshikasuruto.mp3] |  |  |  |  | 
+なに | nani | what | question marker, marks an interrogative clause | [sound:ic_jp_nani.mp3] |  |  |  |  | 
+かつ | katsu | and | conjunction marker, marks a connection between two clauses | [sound:ic_jp_katsu.mp3] |  |  |  |  | 
+かね | kane | it seems | speculation marker, expresses speculation about something | [sound:ic_jp_kane.mp3] |  |  |  |  | 
+しかた | shikata | how/in what way | question marker, marks an interrogative clause | [sound:ic_jp_shikata.mp3] |  |  |  |  | 
+どうも | doumo | somehow/in some way | non-specific marker, expresses non-specificity about something | [sound:ic_jp_doumo.mp3] |  |  |  |  | 
+どうして | doushite | why | question marker, marks an interrogative clause | [sound:ic_jp_doushite.mp3] |  |  |  |  | 
+そうか | souka | I see | realization marker, expresses realization about something | [sound:ic_jp_souka.mp3] |  |  |  |  | 
+なおかつ | naokatsu | besides/moreover | additive marker, adds elements to a previous statement | [sound:ic_jp_naokatsu.mp3] |  |  |  |  | 
+おそらく | osoraku | probably | speculation marker, expresses speculation about something | [sound:ic_jp_osoraku.mp3] |  |  |  |  | 
+なるべく | narubeku | as much as possible | limit marker, marks the limit of an action | [sound:ic_jp_narubeku.mp3] |  |  |  |  | 
+なんとか | nantoka | somehow/in some way | non-specific marker, expresses non-specificity about something | [sound:ic_jp_nantoka.mp3] |  |  |  |  | 
+どうせ | douse | anyway/in any case | conclusion marker, marks the conclusion of an action | [sound:ic_jp_douse.mp3] |  |  |  |  | 
+もっとも | mottomo | most/of all | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_mottomo.mp3] |  |  |  |  | 
+なんど | nando | how many times | question marker, marks an interrogative clause | [sound:ic_jp_nando.mp3] |  |  |  |  | 
+おなじ | onaji | same/equal | equivalence marker, expresses equivalence between two elements | [sound:ic_jp_onaji.mp3] |  |  |  |  | 
+どころか | dokoroka | let alone | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_dokoroka.mp3] |  |  |  |  | 
+どうにも | dounimo | anyway/in any case | conclusion marker, marks the conclusion of an action | [sound:ic_jp_dounimo.mp3] |  |  |  |  | 
+どうぞ | douzo | please | request marker, marks a request or command | [sound:ic_jp_douzo.mp3] |  |  |  |  | 
+おおまか | oomaka | roughly/approximately | approximation marker, expresses approximation about something | [sound:ic_jp_oomaka.mp3] |  |  |  |  | 
+どうやら | douyara | it seems | speculation marker, expresses speculation about something | [sound:ic_jp_douyara.mp3] |  |  |  |  | 
+なにより | naniyori | above all | emphasis marker, emphasizes the inclusion of a group or element in a description | [sound:ic_jp_naniyori.mp3] |  |  |  |  | 
+なんとなく | nantonaku |  |  | [sound:ic_jp_nantonaku.mp3] |  |  |  |  | 
+どうにか | dounika |  |  | [sound:ic_jp_dounika.mp3] |  |  |  |  | 
+なんとも | nantomo | "I don't know" | uncertainty marker, expresses uncertainty about something | [sound:ic_jp_nantomo.mp3] |  |  |  |  | 
+なんにも | nannimo | nothing | negation marker, negates an action or occurrence | [sound:ic_jp_nannimo.mp3] |  |  |  |  | 
+および | oyobi | and/as well as | conjunction marker, marks a connection between two clauses | [sound:ic_jp_oyobi.mp3] |  |  |  |  | 
+に関して | nikanshite | concerning | in relation to, with regard to | [sound:ic_jp_nikanshite.mp3] |  | この もんだい に かんして、あなたは どう おもいますか。 | Kono mondai nikanshite, anata wa dou omoimasu ka. | What do you think about this problem? | 
+にかんして | nikanshite | concerning | in relation to, with regard to | [sound:ic_jp_nikanshite.mp3] |  | この もんだい に かんして、あなたは どう おもいますか。 | Kono mondai nikanshite, anata wa dou omoimasu ka. | What do you think about this problem? | 
