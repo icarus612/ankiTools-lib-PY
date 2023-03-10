@@ -38,6 +38,5 @@ for name, src in audio_json.items():
     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
   }
   audio = requests.get(src, headers=headers)
-  print(audio.content)
   with open(os.path.join(path, name), 'wb') as audio_file:
     audio_file.write(audio.content)
