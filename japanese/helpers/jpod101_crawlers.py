@@ -5,12 +5,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-import json
 import requests
 import os
 from time import sleep
 
-def download_audio(audio_json, audio_path='audio_files', wipe_old=False): 
+def download_audio(audio_dict, audio_path='audio_files', wipe_old=False): 
   try: 
     os.mkdir(audio_path)
   except:
@@ -21,7 +20,7 @@ def download_audio(audio_json, audio_path='audio_files', wipe_old=False):
         for name in dirs:
             os.rmdir(os.path.join(root, name))
 
-  for name, src in audio_json.items(): 
+  for name, src in audio_dict.items(): 
     headers = {
       'authority': 'cdn.innovativelanguage.com',
       'accept': '*/*',
@@ -42,13 +41,14 @@ def download_audio(audio_json, audio_path='audio_files', wipe_old=False):
     with open(os.path.join(audio_path, name), 'wb') as audio_file:
       audio_file.write(audio.content)
 
-
-def search(word_list, key_prefix="ic_jp_", key_suffix='.mp3'):
+def search(word_list, key_prefix=False, key_suffix=False):
+	if len(word_list) == 0:
+		return dict()
 	def check_val(val):
 		return val if val else ""
 
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-	audio_json = {}
+	audio_dict = dict()
 	driver.get('https://www.japanesepod101.com/japanese-dictionary/')
 
 	try:
@@ -62,24 +62,21 @@ def search(word_list, key_prefix="ic_jp_", key_suffix='.mp3'):
 		suffix = check_val(key_suffix)
 		word = ''.join(raw_word.split(' '))
 		file_path = prefix + word + suffix
-
-		try:
-			search_bar = driver.find_element(By.ID, 'dc-search-input')
-			search_bar.clear()
-			search_bar.send_keys(word)
-
-			driver.find_element(By.ID, 'dc-search-button').click()
-			sleep(1)
-			for element in driver.find_elements(By.CLASS_NAME, 'dc-result-row'):
-				if element.find_element(By.CLASS_NAME, 'dc-vocab_romanization').get_attribute('innerHTML') == word:
-					audio_json[file_path] = element.find_element(By.TAG_NAME, 'audio').find_element(By.TAG_NAME, 'source').get_attribute('src')
-		
-		except Exception as e:
+		search_bar = driver.find_element(By.ID, 'dc-search-input')
+		search_bar.clear()
+		search_bar.send_keys(word)
+		driver.find_element(By.ID, 'dc-search-button').click()
+		sleep(1)
+		results = driver.find_elements(By.CLASS_NAME, 'dc-result-row')
+		for element in results:
+			if element.find_element(By.CLASS_NAME, 'dc-vocab_romanization').get_attribute('innerHTML') == word:
+				audio_dict[file_path] = element.find_element(By.TAG_NAME, 'audio').find_element(By.TAG_NAME, 'source').get_attribute('src')
+		if len(results) == 0 or file_path not in audio_dict: 
 			print(f'Error finding match for word: {raw_word}')
 
-		return audio_json
+	return audio_dict
 
-def common_words(end_point='100'):
+def common_words(end_point='100', email=False, password=False):
 	words_lst = []
 	page = 1
 
@@ -94,8 +91,8 @@ def common_words(end_point='100'):
 	try:
 		driver.find_element(By.CLASS_NAME, 'js-show-sign-in-form').click()
 		sleep(1)
-		email = input("Enter Login Email: ")
-		password = input("Enter Login Password: ")
+		email = email if email else input("Enter Login Email: ")
+		password = password if password else input("Enter Login Password: ")
 		driver.find_element(By.CLASS_NAME, 'js-sign-in--a__email-input').send_keys(email)
 		driver.find_element(By.CLASS_NAME, 'js-sign-in--a__password-input').send_keys(password)
 		driver.find_element(By.CLASS_NAME, 'js-ln-sign-in-button').click()
@@ -108,7 +105,7 @@ def common_words(end_point='100'):
 		page += 1
 
 		for element in driver.find_elements(By.CLASS_NAME, 'wlv-item'):
-			item = {}
+			item = dict()
 			item['english'] = element.find_element(By.CLASS_NAME, 'wlv-item__english').get_attribute('innerHTML')
 			try: 
 				item['higarana'] = element.find_element(By.CLASS_NAME, 'js-wlv-word-field-kana').find_element(By.CLASS_NAME, 'wlv-item__word').get_attribute('innerHTML')

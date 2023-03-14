@@ -1,0 +1,155 @@
+は	wa	is	subject marker, marks the subject of a sentence	[sound:ic_jp_wa.mp3]	"""Wa"" is used to mark something that has already been introduced into the conversation, or is familiar with both a speaker and a listener (proper nouns, genetic names etc.) where as ""ga"" is used when a situation or happening is just noticed or newly introduced."	
+が	ga	is	subject marker, marks the subject of a sentence	[sound:d1-ga.mp3]		
+を	o	of/to	object marker, marks the object of a sentence	[sound:ic_jp_o.mp3]		
+に	ni	to/at	direction marker, marks the destination of an action	[sound:ic_jp_ni.mp3]		
+で	de	by/at	location marker, marks the location of an action	[sound:d14-de.mp3]<br>		
+と	to	with	conjunction marker, marks a connection between two clauses	[sound:20_to.mp3]<br>		
+から	kara	from	origin marker, marks the origin of an action	[sound:ic_jp_kara.mp3]		
+まで	made	until	endpoint marker, marks the endpoint of a range or interval	[sound:ic_jp_made.mp3]		
+や	ya	and	conjunction marker, marks a connection between two clauses	[sound:ic_jp_ya.mp3]		
+も	mo	also	inclusive marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_mo.mp3]		
+の	no	"of/<i>noun</i>'s"	partitive marker, marks possession or association	[sound:ic_jp_no.mp3]	"The second example is possessive, like apostrophe s ('s)."	
+には	ni wa	in marker	marks the location of something			
+か	ka	question mark (?)	question marker, marks a yes/no question	[sound:ic_jp_ka.mp3]	"""Ga"" is used when a situation or happening is just noticed or newly introduced, where as ""wa"" is used to mark something that has already been introduced into the conversation, or is familiar with both a speaker and a listener. (proper nouns, genetic names etc.)"	
+ので	node	therefore; because of that	indicates the reason or cause of something	[sound:ic_jp_node.mp3]		
+がいい	ga ii	good subject marker	shows a good choice			
+かもしれない	kamo shirenai	may, might be	shows uncertainty			
+ね	ne	right?	question particle, seeks agreement or confirmation	[sound:ic_jp_ne.mp3]		
+といった	toitta	such as	introduces examples			
+だ	da	is	copula, links the subject and predicate	[sound:ic_jp_da.mp3]		
+ば	ba	if	conditional marker, introduces a conditional clause	[sound:d16-ba.mp3]<br>		
+です	desu	polite copula	polite form of the copula <i>da</i>	[sound:ic_jp_desu.mp3]	You use this at the end of a statement in conjunction with wa or ga.	
+こと	koto	thing	general term for something	[sound:ic_jp_koto.mp3]		
+かも	kamo	perhaps	uncertainty marker, expresses uncertainty about something	[sound:ic_jp_kamo.mp3]		
+よ	yo	so	conclusion marker, marks the conclusion of an action	[sound:ic_jp_yo.mp3]		
+て	te	gerund marker	shows continuing action	[sound:ic_jp_te.mp3]		
+という	to iu	so-called	introduces a label or nickname			
+た	ta	past tense marker	marks past tense	[sound:ic_jp_ta.mp3]		
+ように	youni	so that, in order to	in a way, so that	[sound:ic_jp_youni.mp3]		
+な	na	interjection marker	adds emphasis or indicates emotion	[sound:ic_jp_na.mp3]		
+とおもいます	to omoimasu	I think	gives opinion			
+ます	masu	polite verb ending	makes a verb polite	[sound:ic_jp_masu.mp3]		
+のに	noni	despite	contrast marker, marks a contrast between two clauses	[sound:ic_jp_noni.mp3]		
+ところ	tokoro	at this point/now	temporal marker, marks a sequence of actions or occurrences	[sound:ic_jp_tokoro.mp3]		
+ところが	tokoro ga	but	shows contrast			
+といっても	to itte mo	even though	shows contrast			
+といったら	to ittara	if you say	introduces a hypothetical scenario			
+とか	toka	etcetera	used to include additional items in a list	[sound:ic_jp_toka.mp3]		
+といって	to itte	so-called	introduces a label or nickname			
+について	nitsuite	about	concerning, regarding	[sound:ic_jp_nitsuite.mp3]		
+でも	demo	but, however	indicates a contrast or concession	[sound:ic_jp_demo.mp3]		
+とかんがえます	to kangaemasu	I think	gives opinion			
+へ	e	to	direction marker, marks the destination of an action	[sound:ic_jp_e.mp3]		
+より	yori	than	inclusion marker, marks the inclusion of one element within another	[sound:ic_jp_yori.mp3]		
+だけ	dake	only	limit marker, marks the limit of an action	[sound:ic_jp_dake.mp3]		
+だって	datte	because	explanation marker, marks the explanation of an action or occurrence	[sound:ic_jp_datte.mp3]		
+だってば	datteba	emphatic particle, assertion	adds emphasis to a statement or complaint			
+ばかり	bakari	only; just	indicates that the action of the sentence is the only thing happening	[sound:ic_jp_bakari.mp3]		
+ほど	hodo	extent	indicates the extent of something	[sound:ic_jp_hodo.mp3]		
+など	nado	and so on/etc.	non-exhaustive listing marker, marks an incomplete list of items	[sound:ic_jp_nado.mp3]		
+ずつ	zutsu	each; at a time	indicates that something is done for each item	[sound:ic_jp_zutsu.mp3]		
+にたいして	nitaishte	regarding; towards	indicates the target of the action or state			
+にとって	nitotte	for; to	indicates the importance or value of something to someone	[sound:ic_jp_nitotte.mp3]		
+によって	niyotte	by; due to	indicates the reason or cause of something	[sound:ic_jp_niyotte.mp3]		
+によると	niyoruto	according to	indicates the source of information	[sound:ic_jp_niyoruto.mp3]		
+なら	nara	if	indicates a hypothetical condition and its result	[sound:ic_jp_nara.mp3]		
+ても	temo	even if	indicates a concession or supposition			
+ては	tewa	if	indicates a conditional action			
+てば	teba	if	indicates a conditional action	[sound:ic_jp_teba.mp3]		
+として	toshite	as	indicates a standard or a role	[sound:ic_jp_toshite.mp3]		
+としても	toshitemo	even as	indicates a concession or an extreme example	[sound:ic_jp_toshitemo.mp3]		
+とともに	totomoni	with	along with, together with	[sound:ic_jp_totomoni.mp3]		
+につき	nitsuki	per	per, each, every	[sound:ic_jp_nitsuki.mp3]		
+ねば	neba	if not	unless, without			
+ねん	nen	years	years	[sound:ic_jp_nen.mp3]		
+ぶり	buri	after an interval of time	after, for the first time in	[sound:ic_jp_buri.mp3]		
+べき	beki	should, must	should, ought to	[sound:ic_jp_beki.mp3]		
+もん	mon	reason	reason, cause	[sound:ic_jp_mon.mp3]		
+わけ	wake	reason	reason, explanation	[sound:ic_jp_wake.mp3]		
+はも	wamo	even	emphasis marker, emphasizes the inclusion of a group or element in a description			
+やら	yara	and so on/etc.	non-exhaustive listing marker, marks an incomplete list of items	[sound:ic_jp_yara.mp3]		
+かな	kana	I wonder	speculation marker, expresses speculation about something	[sound:ic_jp_kana.mp3]		
+やって	yatte	trying/doing	progressive marker, marks an ongoing action			
+かしら	kashira	I wonder	speculation marker, expresses speculation about something	[sound:ic_jp_kashira.mp3]		
+ごと	goto	altogether	totality marker, marks the entirety of an action	[sound:ic_jp_goto.mp3]		
+どころ	dokoro	let alone	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_dokoro.mp3]		
+かぎり	kagiri	as far as/to the extent that	limit marker, marks the limit of an action	[sound:ic_jp_kagiri.mp3]		
+なく	naku	without	negation marker, negates an action or occurrence	[sound:ic_jp_naku.mp3]		
+なり	nari	become/changing into	change marker, marks a transition from one state to another	[sound:ic_jp_nari.mp3]		
+ましても	mashitemo	not to mention	emphasis marker, emphasizes the inclusion of a group or element in a description			
+ゆえ	yue	therefore	consequence marker, marks the consequence of an action	[sound:ic_jp_yue.mp3]		
+ゆえに	yue ni	therefore	consequence marker, marks the consequence of an action			
+そして	soshite	and then	temporal marker, marks a sequence of actions or occurrences	[sound:ic_jp_soshite.mp3]		
+けど	kedo	however	contrast marker, marks a contrast between two clauses	[sound:ic_jp_kedo.mp3]		
+なお	nao	besides/in addition	additive marker, adds elements to a previous statement	[sound:ic_jp_nao.mp3]		
+かといって	ka to itte	however	contrast marker, marks a contrast between two clauses			
+なか	naka	inside/among/within	location marker, marks the location of an action	[sound:ic_jp_naka.mp3]		
+からそう	karasou	so	conclusion marker, marks the conclusion of an action	[sound:15_so.mp3]		
+なんて	nante	such/like/how	exclamation marker, expresses surprise or amazement	[sound:ic_jp_nante.mp3]		
+きり	kiri	after/since	temporal marker, marks a sequence of actions or occurrences	[sound:ic_jp_kiri.mp3]		
+さえ	sae	even	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_sae.mp3]		
+かしらの	kashirano	I wonder	speculation marker, expresses speculation about something			
+それとも	soretomo	or	alternative marker, marks an alternative action or occurrence	[sound:ic_jp_soretomo.mp3]		
+かた	kata	how	question marker, marks an interrogative clause	[sound:ic_jp_kata.mp3]		
+はもちろん	wamochiron	of course	certainty marker, expresses certainty about something			
+けれども	keredomo	but	contrast marker, marks a contrast between two clauses	[sound:ic_jp_keredomo.mp3]		
+そういう	souiu	such/like that	demonstrative marker, marks the object of the sentence	[sound:ic_jp_souiu.mp3]		
+それぞれ	sorezore	each/respectively	distributive marker, marks the distribution of an action or occurrence	[sound:ic_jp_sorezore.mp3]		
+なんか	nanka	somehow/something	non-specific marker, expresses non-specificity about something	[sound:ic_jp_nanka.mp3]		
+およそ	oyoso	about/approximately	approximation marker, expresses approximation about something	[sound:ic_jp_oyoso.mp3]		
+そもそも	somosomo	in the first place	initiation marker, marks the initiation of an action or occurrence	[sound:ic_jp_somosomo.mp3]		
+そうして	soushite	and so/thereupon	temporal marker, marks a sequence of actions or occurrences	[sound:ic_jp_soushite.mp3]		
+もしくは	moshikuwa	or	alternative marker, marks an alternative action or occurrence			
+それに	soreni	besides/in addition	additive marker, adds elements to a previous statement	[sound:ic_jp_soreni.mp3]		
+はず	hazu	should/ought to	expectation marker, expresses expectations about something	[sound:ic_jp_hazu.mp3]		
+とも	tomo	also	inclusive marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_tomo.mp3]		
+までも	mademo	even	emphasis marker, emphasizes the inclusion of a group or element in a description			
+しかも	shikamo	moreover	additive marker, adds elements to a previous statement	[sound:ic_jp_shikamo.mp3]		
+こそ	koso	indeed	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_koso.mp3]		
+かならず	kanarazu	without fail/certainly	certainty marker, expresses certainty about something	[sound:ic_jp_kanarazu.mp3]		
+もしかすると	moshikasuruto	perhaps/maybe	uncertainty marker, expresses uncertainty about something	[sound:ic_jp_moshikasuruto.mp3]		
+そうしたら	soushitara	if so	condition marker, marks the condition on which an action or occurrence depends			
+なに	nani	what	question marker, marks an interrogative clause	[sound:ic_jp_nani.mp3]		
+かつ	katsu	and	conjunction marker, marks a connection between two clauses	[sound:ic_jp_katsu.mp3]		
+かね	kane	it seems	speculation marker, expresses speculation about something	[sound:ic_jp_kane.mp3]		
+それなら	sore nara	if that is the case	condition marker, marks the condition on which an action or occurrence depends			
+しかた	shikata	how/in what way	question marker, marks an interrogative clause	[sound:ic_jp_shikata.mp3]		
+どうも	doumo	somehow/in some way	non-specific marker, expresses non-specificity about something	[sound:ic_jp_doumo.mp3]		
+どうして	doushite	why	question marker, marks an interrogative clause	[sound:ic_jp_doushite.mp3]		
+そうか	souka	I see	realization marker, expresses realization about something	[sound:ic_jp_souka.mp3]		
+どうしよう	doushiyou	how/in what way	question marker, marks an interrogative clause			
+なおかつ	naokatsu	besides/moreover	additive marker, adds elements to a previous statement	[sound:ic_jp_naokatsu.mp3]		
+おそらく	osoraku	probably	speculation marker, expresses speculation about something	[sound:ic_jp_osoraku.mp3]		
+なるべく	narubeku	as much as possible	limit marker, marks the limit of an action	[sound:ic_jp_narubeku.mp3]		
+なんとか	nantoka	somehow/in some way	non-specific marker, expresses non-specificity about something	[sound:ic_jp_nantoka.mp3]		
+どうせ	douse	anyway/in any case	conclusion marker, marks the conclusion of an action	[sound:ic_jp_douse.mp3]		
+なんなら	nannara	if it comes to that/even if	condition marker, marks the condition on which an action or occurrence depends			
+なんてこと	nante koto	such a thing	exclamation marker, expresses surprise or amazement			
+もっとも	mottomo	most/of all	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_mottomo.mp3]		
+なんど	nando	how many times	question marker, marks an interrogative clause	[sound:ic_jp_nando.mp3]		
+どのくらい	dono kurai	to what extent	question marker, marks an interrogative clause			
+おなじ	onaji	same/equal	equivalence marker, expresses equivalence between two elements	[sound:ic_jp_onaji.mp3]		
+どころか	dokoroka	let alone	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_dokoroka.mp3]		
+どうでも	doudemo	anything, whatever				
+なんぞ	nanzo	what?	question marker, marks an interrogative clause			
+どうにも	dounimo	anyway/in any case	conclusion marker, marks the conclusion of an action	[sound:ic_jp_dounimo.mp3]		
+どうぞ	douzo	please	request marker, marks a request or command	[sound:ic_jp_douzo.mp3]		
+おおまか	oomaka	roughly/approximately	approximation marker, expresses approximation about something	[sound:ic_jp_oomaka.mp3]		
+どうやら	douyara	it seems	speculation marker, expresses speculation about something	[sound:ic_jp_douyara.mp3]		
+なにより	naniyori	above all	emphasis marker, emphasizes the inclusion of a group or element in a description	[sound:ic_jp_naniyori.mp3]		
+どうみても	doumite mo	no matter how you look at it	emphasis marker, emphasizes the inclusion of a group or element in a description			
+そうしないと	soushinaito	unless/otherwise	condition marker, marks the condition on which an action or occurrence depends			
+どうせなら	dousenara	if it comes to that/even if	condition marker, marks the condition on which an action or occurrence depends			
+なんとなく	nantonaku			[sound:ic_jp_nantonaku.mp3]		
+どうにか	dounika			[sound:ic_jp_dounika.mp3]		
+どうでもいい	doudemo ii	"it doesn't matter/I don't care"	indifference marker, expresses indifference about something			
+なんとなえ	nantonae	how/in what way	question marker, marks an interrogative clause			
+どのよう	dono you	how/in what way	question marker, marks an interrogative clause			
+なんとも	nantomo	"""I don't know"""	uncertainty marker, expresses uncertainty about something	[sound:ic_jp_nantomo.mp3]		
+なんにも	nannimo	nothing	negation marker, negates an action or occurrence	[sound:ic_jp_nannimo.mp3]		
+および	oyobi	and/as well as	conjunction marker, marks a connection between two clauses	[sound:ic_jp_oyobi.mp3]		
+なによりも	naniyorimo	above all	emphasis marker, emphasizes the inclusion of a group or element in a description			
+に対して	nitaishte	regarding; towards	indicates the target of the action or state			
+に関して	nikanshite	concerning	in relation to, with regard to	[sound:ic_jp_nikanshite.mp3]		
+がいいとおもいます	ga ii to omoimasu	I think it is good			gives opinion	
+にかんして	nikanshite	concerning	in relation to, with regard to	[sound:ic_jp_nikanshite.mp3]		

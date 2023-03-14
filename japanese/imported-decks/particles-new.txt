@@ -37,7 +37,6 @@
 まで | made | until, up to | particle of time and distance
 について | nitsuite | about, concerning | particle indicating a topic or subject
 とか | toka | such as, and so on | particle indicating examples or alternatives
-ねえ | nee | hey, huh, right? | sentence-ending particle indicating a request for confirmation or attention
 ぞ | zo | hey, listen | sentence-ending particle indicating strong emphasis or command
 など | nado | and so on, etc. | particle indicating examples or approximate items
 や | ya | and, or | particle indicating choices or listing items
@@ -49,7 +48,7 @@
 し | shi | and, also, as well | conjunctive particle indicating a continuation or addition
 ともあろうひと | tomo arou hito | person of great importance | archaic expression used to refer to someone with great power or authority
 な | na | isn't it? | sentence-ending particle indicating a request for confirmation or agreement
-を | wo | object particle | particle indicating the direct object of a sentence
+を | o | object particle | particle indicating the direct object of a sentence
 さ | sa | emphasis particle | sentence-ending particle indicating emphasis or assertion
 さえ | sae | even, if only | particle indicating a sufficient condition or minimum requirement
 ぜ | ze | hey, come on | sentence-ending particle indicating strong emphasis or urging
