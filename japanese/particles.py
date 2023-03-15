@@ -6,12 +6,19 @@ def split(f, s='\t'):
 prefix = 'ic_jp_'
 suffix = '.mp3'
 
-with open('./imported-decks/particles-new.txt') as p_new, open('./imported-decks/particles-old.txt') as p_old, open('./particles-final.txt', 'w') as p_final:
-  new = split(p_new, '|')  
-  old = split(p_old)
+with open('./imported-decks/particles-new.txt') as p_new, open('./particles-final.txt', 'w') as p_final:
   final = []
-  audio_dict = search([x[1] for x in new])
   update_audio = dict()
+  new = split(p_new, '|')  
+  all_words = [card[1] for card in new]
+  search_results = search(all_words)
+  audio_dict = search_results[0]
+  print(search_results[1])
+  retry_missed = search([new[all_words.index(word)][0] for word in search_results[1]])[0]
+
+  for key, val in retry_missed.items():
+    new_key = new[[x[0] for x in new].index(key)][1]
+    audio_dict[new_key] = val
 
   for card in new:
     if card[1] in audio_dict.keys():

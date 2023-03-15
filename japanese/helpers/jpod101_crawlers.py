@@ -49,7 +49,11 @@ def search(word_list, key_prefix=False, key_suffix=False):
 
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 	audio_dict = dict()
+	missed_words = []
 	driver.get('https://www.japanesepod101.com/japanese-dictionary/')
+
+	def get_word_html(el, val):
+		return el.find_element(By.CLASS_NAME, f'dc-vocab_{val}').get_attribute('innerHTML')
 
 	try:
 		driver.find_element(By.CLASS_NAME, 'lightBox-signup-header-close').click()
@@ -69,12 +73,13 @@ def search(word_list, key_prefix=False, key_suffix=False):
 		sleep(1)
 		results = driver.find_elements(By.CLASS_NAME, 'dc-result-row')
 		for element in results:
-			if element.find_element(By.CLASS_NAME, 'dc-vocab_romanization').get_attribute('innerHTML') == word:
+			if word in [get_word_html(element, 'romanization'), get_word_html(element, 'kana')]:
 				audio_dict[file_path] = element.find_element(By.TAG_NAME, 'audio').find_element(By.TAG_NAME, 'source').get_attribute('src')
 		if len(results) == 0 or file_path not in audio_dict: 
+			missed_words.append(raw_word)
 			print(f'Error finding match for word: {raw_word}')
 
-	return audio_dict
+	return audio_dict, missed_words
 
 def common_words(end_point='100', email=False, password=False):
 	words_lst = []
