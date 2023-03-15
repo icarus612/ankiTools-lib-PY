@@ -15,7 +15,7 @@ for i in range(1, 2):
     card = [particle.find('td', f'jl-td-{i}').text.strip().replace('~', '...').replace('〜', '...').replace('～', '...').replace('+', '...').replace('・', ' / ').replace('」', ' ').replace('「',  '') for i in ['gr', 'gj', 'gm', 'nl']]
     if '【' in card[1]:
       card[1] = card[1].split('【')[1].replace('】', '')
-    files[card[3].lower()].append(' | '.join(card[:3]))
+    files[card[3].lower()].append(card[:3])
 
 #for key, val in files.items():
 #  with open(f'jlptsensei-particles-{key}.txt', 'w') as p_file:
