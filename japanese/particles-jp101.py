@@ -13,7 +13,6 @@ with open('./imported-decks/particles-new.txt') as p_new, open('./particles-fina
   all_words = [card[1] for card in new]
   search_results = search(all_words)
   audio_dict = search_results[0]
-  print(search_results[1])
   retry_missed = search([new[all_words.index(word)][0] for word in search_results[1]])[0]
 
   for key, val in retry_missed.items():

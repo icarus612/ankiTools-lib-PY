@@ -1,6 +1,11 @@
-bakari | ばかり | about, approximately ... | [sound:ic_nrkt_bakari.mp3]
-bakari ka | ばかりか | not only... but also; as well as ... | [sound:ic_nrkt_bakarika.mp3]
-dokoro ka | どころか | far from; anything but; let alone; not to mention; much less ... | [sound:ic_nrkt_dokoroka.mp3]
-ka...nai ka no uchi ni | か...ないかのうちに | just as; right after; as soon as ... | [sound:ic_nrkt_ka-naikanouchini.mp3]
-mono / mon | もの / もん | because; indicates reason/ excuse/ dissatisfaction
-mono ka / mon ka | ものか / もんか | as if (something untrue were actually true); there's no way ...
+bakari | ばかり | about, approximately ... | [sound:ic_nrkt_bakari.mp3] | [sound:ic_nrkt_bakari.mp3]
+bakari ka | ばかりか | not only... but also; as well as ... | [sound:ic_nrkt_bakarika.mp3] | [sound:ic_nrkt_bakarika.mp3]
+dokoro ka | どころか | far from; anything but; let alone; not to mention; much less ... | [sound:ic_nrkt_dokoroka.mp3] | [sound:ic_nrkt_dokoroka.mp3]
+ka...nai ka no uchi ni | か...ないかのうちに | just as; right after; as soon as ... | [sound:ic_nrkt_ka-naikanouchini.mp3] | [sound:ic_nrkt_ka-naikanouchini.mp3]
+mono / mon | もの / もん | because; indicates reason/ excuse/ dissatisfaction | [sound:ic_nrkt_mono-mon.mp3] | [sound:ic_nrkt_mono-mon.mp3]
+mono ka / mon ka | ものか / もんか | as if (something untrue were actually true); there's no way ... | [sound:ic_nrkt_monoka-monka.mp3] | [sound:ic_nrkt_monoka-monka.mp3]
+monono | ものの | but; although; even though ... | [sound:ic_nrkt_monono.mp3] | [sound:ic_nrkt_monono.mp3]
+nite | にて | in, at, with, by (formal particle) | [sound:ic_nrkt_nite.mp3] | [sound:ic_nrkt_nite.mp3]
+nomi | のみ | only; nothing but​ | [sound:ic_nrkt_nomi.mp3] | [sound:ic_nrkt_nomi.mp3]
+tewa / dewa | ては / では | whenever; if; when...; repetitive action | [sound:ic_nrkt_tewa-dewa.mp3] | [sound:ic_nrkt_tewa-dewa.mp3]
+tewa...tewa | ては...ては | repetitive situations/actions | [sound:ic_nrkt_tewa-tewa.mp3] | [sound:ic_nrkt_tewa-tewa.mp3]
