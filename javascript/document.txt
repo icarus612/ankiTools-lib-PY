@@ -1,0 +1,45 @@
+document.activeElement	<b>Document property </b>that returns the currently focused element in the document.					
+document.addEventListener(<em>event</em>, <em>function</em>)	<b>Document method</b> that attaches an event handler to the document.		document.addEventListener(<em>event</em>, <em>function</em>, <em>Capture</em>)			
+document.adoptNode(<em>node</em>)	<b>Document method</b>&nbsp;that adopts a node from another document.					
+document.baseURI	<b>Document property</b> that returns the absolute base uri of a document.					
+document.body	"<b>Document property&nbsp;</b>that sets or returns the document's body element."					
+document.characterSet	<b>Document property</b>&nbsp;that returns the character encoding for the document.					
+document.close()	<b>Document method</b> that closes the output stream previously opened with document.open().					
+document.cookie	<b>Document property</b>&nbsp;that returns all name/value pairs of cookies in the document.			let allCookies = document.cookie;		
+document.createAttribute(<i>name</i>)	<b>Document method</b> that creates an attribute node.					
+document.createComment(<i>text</i>)	<b>Document method</b> that creates a comment node with the specified text.					
+document.createDocumentFragment()	<b>Document method</b> that creates an empty documentfragment node.					
+<b>Document property / method</b>: document.createElement(<em>type</em>)	<b>Document property / method</b> that creates an element node.		document.createElement(<em>type</em>)	"const para = document.createElement(""p"");<br/> para.innerText = ""This is a paragraph"";<br/> document.body.appendChild(para);"		
+document.createEvent(<em>type</em>)	<b>Document method</b> that creates a new event.					
+<b>Document property / method</b>: document.createTextNode(<em>text</em>)	<b>Document property / method</b> that creates a text node.		document.createTextNode(<em>text</em>)	"let textNode = document.createTextNode(""Hello World""); document.body.appendChild(textNode);"		
+<b>Document property / method</b>: document.defaultView	<b>Document property / method</b> that returns the window object associated with a document, or null if none is available..		document.defaultView	const view = document.defaultView;		
+<b>Document property / method</b>: document.designMode	<b>Document property / method</b> that controls whether the entire document should be editable or not..		document.designMode	document.designMode;		
+<b>Document property / method</b>: document.doctype	<b>Document property / method</b> that returns the document type declaration associated with the document.		document.doctype	const doctypeObj = document.doctype.name;		
+document.documentElement	<b>Document property </b>that returns the root element of the document.					
+<b>Document property / method</b>: documenturi	<b>Document property / method</b> that sets or returns the location of the document.			let uri = document.documentURI;		
+document.domain	<b>Document property</b>&nbsp;that returns the domain name of the server that loaded the document.					
+document.embeds	<b>Document property </b>that returns a collection of all <embed> elements in the document.					
+<b>Document property / method</b>: document.forms	<b>Document property / method</b> that returns a collection of all <form> elements in the document.		document.forms	let num = document.forms.length;		
+document.getElementById(<em>elementID</em>)	<b>Document method</b> that returns the element that has the id attribute with the specified value.		document.getElementById(<em>elementID</em>)	"document.getElementById(""demo"");"		
+document.getElementsByClassName(<em>classname</em>)	<b>Document method</b> that returns an htmlcollection containing all elements with the specified class name.					
+<b>Document property / method</b>: document.getElementsByName(<i>name</i>)	<b>Document property / method</b> that returns an live nodelist containing all elements with the specified name.		document.getElementsByName(<i>name</i>)	"let elements = document.getElementsByName(""fname"");"		
+document.getElementsByTagName(<em>tagname</em>)	<b>Document method</b> that returns an htmlcollection containing all elements with the specified tag name.					
+document.hasFocus()	<b>Document method&nbsp;</b>that returns true if the document has focus, else false.					
+<b>Document property / method</b>: document.head	<b>Document property / method</b> that returns the <head> element of the document.		document.head	document.head.tagName;		
+<b>Document property / method</b>: document.images	<b>Document property / method</b> that returns a collection of all <img> elements in the document.		document.images	document.images.length;		
+<b>Document property / method</b>: document.implementation	<b>Document property / method</b> that returns the domimplementation object that handles this document.		document.implementation	"document.implementation.hasFeature(""DOM"", ""1.0"");"		
+document.importNode(<em>node</em>)	<b>Document method</b> that imports a node from another document.		document.importNode(<em>node</em>,<em> deep</em>)			
+<b>Document property / method</b>: document.lastModified	<b>Document property / method</b> that returns the date and time the document was last modified.		document.lastModified	let text = document.lastModified;		
+<b>Document property / method</b>: document.links	<b>Document property / method</b> that returns a collection of all <a> and <area> elements in the document that have a href attribute.		document.links	let numb = document.links.length;		
+document.normalize()	<b>Document method</b> that removes empty text nodes, and joins adjacent nodes.					
+<b>Document property / method</b>: open()	<b>Document property / method</b> that opens an html output stream to collect output from document.write().			"document.open();<br/>document.write(""&lt;h1&gt;Hello World&lt;/h1&gt;"");<br/>  document.close();<br/>"		
+document.querySelector(<em>selector</em>)	<b>Document method</b> that returns the first element that matches the specified css selector in the document.	Element names and data attributes are also returned from this function, not just the&nbsp;<i>.class </i>or <i>#id </i>elements.				
+<b>Document property / method</b>: document.querySelectorAll(<em>CSS selectors</em>)	<b>Document property / method</b> that returns a static nodelist containing all elements that matches a specified css selector(s) in the document.		document.querySelectorAll(<em>CSS selectors</em>)	"document.querySelectorAll("".example"");"		
+document.readyState	<b>Document property </b>that returns the current loading status of the document.					
+<b>Document property / method</b>: document.referrer	<b>Document property / method</b> that returns the url of the document that loaded the current document.		document.referrer	document.referrer;		
+document.removeEventListener(<em>event</em>, <em>function</em>)	<b>Document method</b> that removes an event handler from the document (that has been attached with the addeventlistener() method).		document.removeEventListener(<em>event</em>, <em>function</em>, <em>capture</em>)			
+<b>Document property / method</b>: document.scripts	<b>Document property / method</b> that returns a collection of <script> elements in the document.		document.scripts	document.scripts.length;		
+<b>Document property / method</b>: title	<b>Document property / method</b> that sets or returns the title of the document.			document.title;		
+document.URL	<b>Document property</b>&nbsp;that returns the full url of the html document.					
+document.write(<i>…expr</i>)	<b>Document method</b> that writes html expressions or javascript code to a document.					
+document.writeln(…<i>strings</i>)	<b>Document method</b> that writes strings to the document, and adds a newline character after each statement.					
