@@ -9,7 +9,7 @@ files = {
   'n4': [],
   'n5': [],
 }
-for i in range(1, 2):
+for i in range(1, 3):
   page = soup(requests.get(f'https://jlptsensei.com/complete-japanese-particles-list/page/{i}/').content, 'html.parser')
   for particle in page.find_all('tr', {'class': 'jl-row'}):
     card = [particle.find('td', f'jl-td-{i}').text.strip().replace('~', '...').replace('〜', '...').replace('～', '...').replace('+', '...').replace('・', ' / ').replace('」', ' ').replace('「',  '') for i in ['gr', 'gj', 'gm', 'nl']]

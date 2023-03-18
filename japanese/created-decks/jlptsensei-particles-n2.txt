@@ -1,11 +1,16 @@
-bakari | ばかり | about, approximately ...
-bakari ka | ばかりか | not only... but also; as well as ...
-dokoro ka | どころか | far from; anything but; let alone; not to mention; much less ...
-ka...nai ka no uchi ni | か...ないかのうちに | just as; right after; as soon as ...
-mono / mon | もの / もん | because; indicates reason/ excuse/ dissatisfaction
-mono ka / mon ka | ものか / もんか | as if (something untrue were actually true); there's no way ...
-monono | ものの | but; although; even though ...
-nite | にて | in, at, with, by (formal particle)
-nomi | のみ | only; nothing but​
-tewa / dewa | ては / では | whenever; if; when...; repetitive action
-tewa...tewa | ては...ては | repetitive situations/actions
+ばかり | bakari | about, approximately ... |  | [sound:ic_ttmp3_bakari.mp3]
+ばかりか | bakari ka | not only... but also; as well as ... |  | [sound:ic_ttmp3_bakarika.mp3]
+どころか | dokoro ka | far from; anything but; let alone; not to mention; much less ... |  | [sound:ic_ttmp3_dokoroka.mp3]
+か...ないかのうちに | ka...nai ka no uchi ni | just as; right after; as soon as ... |  | [sound:ic_ttmp3_ka-naikanouchini.mp3]
+もの / もん | mono / mon | because; indicates reason/ excuse/ dissatisfaction |  | [sound:ic_ttmp3_mono-mon.mp3]
+ものか / もんか | mono ka / mon ka | as if (something untrue were actually true); there's no way ... |  | [sound:ic_ttmp3_monoka-monka.mp3]
+ものの | monono | but; although; even though ... |  | [sound:ic_ttmp3_monono.mp3]
+にて | nite | in, at, with, by (formal particle) |  | [sound:ic_ttmp3_nite.mp3]
+のみ | nomi | only; nothing but​ |  | [sound:ic_ttmp3_nomi.mp3]
+ては / では | tewa / dewa | whenever; if; when...; repetitive action |  | [sound:ic_ttmp3_tewa-dewa.mp3]
+ては...ては | tewa...tewa | repetitive situations/actions |  | [sound:ic_ttmp3_tewa-tewa.mp3]
+とか（で） | toka (de) | I heard that ... |  | [sound:ic_ttmp3_toka(de).mp3]
+とも | tomo | even if; no matter (who, what, when, where, why, how); though ... |  | [sound:ic_ttmp3_tomo.mp3]
+つつ | tsutsu | while; even though; despite ... |  | [sound:ic_ttmp3_tsutsu.mp3]
+やら...やら | yara...yara | such things as A and B; A and B and so on ... |  | [sound:ic_ttmp3_yara-yara.mp3]
+より [2] | yori | from... (a time, place, or person) |  | [sound:ic_ttmp3_yori.mp3]

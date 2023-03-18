@@ -22,7 +22,7 @@ def get_proxy_list():
   return [':'.join(proxy[:2]) for proxy in proxies if proxy[4] == 'elite proxy']
 
 #proxies = get_proxy_list()
-audio_path = 'particlesAudio-narakeet'
+audio_path = 'audio/particles/narakeet'
 proxy_idx = 0
 
 try: 

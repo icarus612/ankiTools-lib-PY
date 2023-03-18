@@ -14,6 +14,6 @@ def build_cards(val, grp):
       f_grp.writelines(f'{card["higarana"]} | {card["romaji"]} | {card["english"]} | [sound:{file_name}] \n')
       audio_dict[file_name] = card['audio_src']
 
-cards = common_words('2000', 'emoney612@gmail.com', 'hD@pVtjh8AVQi6c')
+cards = common_words('2000')
 build_cards(f'{idx + 1}00', cards)
 download_audio(audio_dict)

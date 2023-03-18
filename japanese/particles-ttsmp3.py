@@ -10,7 +10,7 @@ import json
 import os
 from time import sleep
 
-audio_path = 'particlesAudio-ttsmp3'
+audio_path = 'audio/particles/ttsmp3'
 audio_json = {}
 
 def get_proxy_list():
@@ -36,36 +36,38 @@ caps = DesiredCapabilities.CHROME
 caps['goog:loggingPrefs'] = {'performance': 'ALL'}
 options = webdriver.ChromeOptions()
 
-for proxy in get_proxy_list()[:10]:
+for proxy in get_proxy_list():
 	try:
 		options.add_argument(f'--proxy-server={proxy}')
 		driver = webdriver.Chrome(options=options, service=Service(ChromeDriverManager().install()), desired_capabilities=caps)
 		driver.get(f'https://ttsmp3.com/text-to-speech/Japanese/')
-		text_area = driver.find_element(By.ID, 'voicetext')
-
-		for deck_name, deck in raw_json.items():
-			with open(f'./jlptsensei-particles-{deck_name}.txt', 'w') as deck_file:
-				for card in deck:
-					file_name = f"ic_nrkt_{card[0].replace('...', '-').replace(' ', '').replace('/', '-')}.mp3"
-					text_area.clear()
-					text_area.send_keys(card[1].split('/')[0].replace('...', '<break time="700ms"/>').strip() + '<break time="100ms"/>')
-					driver.find_element(By.ID, 'vorlesenbutton').click()
-					card.append(f'[sound:{file_name}]')
-
-					sleep(3)
-					browser_log = driver.get_log('performance') 
-					events = [event for event in [json.loads(entry['message'])['message'] for entry in browser_log] if 'Network.response' in event['method']]
-
-					for event in events:
-						if 'response' in event["params"]:
-							url = event["params"]['response']['url']
-							if 'created_mp3' in url:
-								audio_json[file_name] = url
-
-					deck_file.write(' | '.join(card) + '\n')
+		driver.find_element(By.ID, 'voicetext')
 		break
 	except:
 		print(f'Proxy {proxy} failed, trying next...')
+
+for deck_name, deck in raw_json.items():
+	print(f'Number of audio files to create in {deck_name}: {len(deck)}')
+	with open(f'./jlptsensei-particles-{deck_name}.txt', 'w') as deck_file:
+		for card in deck:
+			file_name = f"ic_ttmp3_{card[0].replace('...', '-').replace(' ', '').replace('/', '-')}.mp3"
+			text_area = driver.find_element(By.ID, 'voicetext')
+			text_area.clear()
+			text_area.send_keys(card[1].split('/')[0].replace('...', '<break time="700ms"/>').strip() + '<break time="100ms"/>')
+			driver.find_element(By.ID, 'vorlesenbutton').click()
+			card.append(f'[sound:{file_name}]')
+			sleep(5)
+			browser_log = driver.get_log('performance') 
+			events = [event for event in [json.loads(entry['message'])['message'] for entry in browser_log] if 'Network.response' in event['method']]
+
+			for event in events:
+				if 'response' in event["params"]:
+					url = event["params"]['response']['url']
+					if 'created_mp3' in url:
+						audio_json[file_name] = url
+			card[1], card[0] = card[:2]
+			card.insert(3,  '')
+			deck_file.write(' | '.join(card) + '\n')
 		
 with open(f'{audio_path}.json', 'w') as audio_file:
 	audio_file.write(json.dumps(audio_json))
