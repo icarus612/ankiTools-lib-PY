@@ -53,19 +53,23 @@ for deck_name, deck in raw_json.items():
 					driver.find_element(By.CLASS_NAME, 'textarea').clear()
 					driver.find_element(By.CLASS_NAME, 'textarea').send_keys(card[1].split('/')[0])
 					driver.find_element(By.NAME, 'generateaudio').click()
-				except:
+					break
+				except Exception as e:
+					print(e)
 					sleep(5)
 
 			for _ in range(8):
-				status = driver.find_elements(By.CSS_SELECTOR, '.dialog.wide:not(.hidden)')
-				print(*[stat.find_element(By.TAG_NAME, 'h1').get_attribute('innerHTML') for stat in status])
-				
-				if status == 'finished':
+				sleep(5)
+				status = driver.find_element(By.CSS_SELECTOR, '[data-show-stage]').get_attribute('stage').lower().strip()
+				print(status)
+				if status == 'finished':					
 					card.append(f'[sound:{file_name}]')
 					audio = requests.get(driver.find_element(By.CSS_SELECTOR, '[data-prop-link="result"]').get_attribute('href'))
 					with open(os.path.join(audio_path, file_name), 'wb') as audio_file:
 						audio_file.write(audio.content)
 					break
+				elif status == 'error':
+					raise Exception('Proxy Error')
 
 			driver.quit()
 			deck_file.write(' | '.join(card) + '\n')

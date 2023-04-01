@@ -43,7 +43,7 @@ for proxy in get_proxy_list():
 		driver.get(f'https://ttsmp3.com/text-to-speech/Japanese/')
 		driver.find_element(By.ID, 'voicetext')
 		break
-	except:
+	except Exception as e:
 		print(f'Proxy {proxy} failed, trying next...')
 
 for deck_name, deck in raw_json.items():
