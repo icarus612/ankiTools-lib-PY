@@ -9,9 +9,13 @@ for i in range(1, 11):
 
 for idx, deck in enumerate(particles):
   r = []
+  a = []
   for i, x in enumerate(particles):
     if i != idx:
       r.extend([get_el(e) for e in x])
-  itr = set(get_el(card) for card in deck).intersection(r)
-  print([(get_el(card, 1), get_el(card, 2)) for card in deck if get_el(card) in r])
+      a.extend(x)
+  
+  itr = [(get_el(card, 1), get_el(card, 2)) for card in deck if get_el(card) in r and card not in a]
+  #print(len(itr))
+  print(itr)
 
