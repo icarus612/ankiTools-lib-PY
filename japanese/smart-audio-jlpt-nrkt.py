@@ -27,11 +27,12 @@ for grp in files:
     for v in elements.values():
       all_lst.extend(v)
 
-fnl_lst = set(tuple(el) for el in all_lst if el[3].split(":")[1][:-1] not in current_lst)
+fnl_lst = list(set(tuple(el) for el in all_lst if el[3].split(":")[1][:-1] not in current_lst))
+fnl_lst.reverse()
 #c_1 = set(c[1] for c in fnl_lst)
 
 
-print(len(fnl_lst)) #785
+print(len(fnl_lst)) #768
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get('https://www.narakeet.com/auth/login/')
@@ -40,7 +41,7 @@ driver.find_element(By.CSS_SELECTOR, 'a[role="log-in"]').click()
 sleep(20)
 
 for card in fnl_lst:
-  file_name = card[3].split(":")[1][:-1]
+  file_name = card[3].split(":")[1][:-1].split('/')[0]
   driver.get(f'https://www.narakeet.com/languages/japanese-text-to-speech/')
   for _ in range(8):
     sleep(1)
