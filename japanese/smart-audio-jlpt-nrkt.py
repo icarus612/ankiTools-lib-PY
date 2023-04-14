@@ -33,12 +33,6 @@ fnl_lst = set(tuple(el) for el in all_lst if el[3].split(":")[1][:-1] not in cur
 
 print(len(fnl_lst)) #785
 
-
-
-
-
-
-
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get('https://www.narakeet.com/auth/login/')
 sleep(3)
@@ -46,8 +40,7 @@ driver.find_element(By.CSS_SELECTOR, 'a[role="log-in"]').click()
 sleep(20)
 
 for card in fnl_lst:
-
-  file_name = f"ic_nrkt_{card[1].replace('...', '-').replace(' ', '').replace('/', '-')}.mp3"
+  file_name = f"ic_nrkt_{card[3].split(":")[1][:-1]}.mp3"
   driver.get(f'https://www.narakeet.com/languages/japanese-text-to-speech/')
   for _ in range(8):
     sleep(1)
