@@ -10,16 +10,27 @@ import json
 import os
 from time import sleep
 
-audio_path = 'audio/particles/narakeet'
-proxy_idx = 0
+audio_path = 'audio/narakeet'
 
 try: 
 	os.mkdir(audio_path)
 except:
 	pass
 
-with open('./created-decks/jlptsensei-particles.json', 'r') as jlpt_json:
-	raw_json = json.loads(jlpt_json.read())
+files = ['nouns', 'verbs', 'adjectives', 'adverbs', 'pre-noun-adjectival']
+raw_json = {
+  'n1': [],
+  'n2': [],
+  'n3': [],
+  'n4': [],
+  'n5': [],
+}
+
+for grp in files:
+  with open(f'./created-decks/jlptsensei/{grp}/full-list.json', 'r') as jlpt_json:
+    elements = json.loads(jlpt_json.read())
+    for k, v in elements.items():
+      raw_json[k].extend(v)
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get('https://www.narakeet.com/auth/login/')
@@ -29,9 +40,8 @@ sleep(20)
 
 for deck_name, deck in raw_json.items():
 	for card in deck:
-		if '...' not in card[0]:
-			continue
-		file_name = f"ic_nrkt_{card[0].replace('...', '-').replace(' ', '').replace('/', '-')}.mp3"
+
+		file_name = f"ic_nrkt_{card[1].replace('...', '-').replace(' ', '').replace('/', '-')}.mp3"
 		driver.get(f'https://www.narakeet.com/languages/japanese-text-to-speech/')
 		for _ in range(8):
 			sleep(1)
@@ -41,7 +51,7 @@ for deck_name, deck in raw_json.items():
 				voice_select = Select(driver.find_element(By.ID, 'cfgVideoVoice'))
 				voice_select.select_by_value('yuriko')
 				driver.find_element(By.CLASS_NAME, 'textarea').clear()
-				driver.find_element(By.CLASS_NAME, 'textarea').send_keys(card[1].split('/')[0].replace('...', '~').replace('  ', ' '))
+				driver.find_element(By.CLASS_NAME, 'textarea').send_keys(card[0].split('/')[0].replace('...', '~'))
 				driver.find_element(By.NAME, 'generateaudio').click()
 				break
 			except Exception as e:

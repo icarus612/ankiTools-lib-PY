@@ -30,7 +30,7 @@ for i in range(1, 11):
     card = [clean_txt(particle.find('td', f'jl-td-{i}').text) for i in ['gr', 'gj', 'gm', 'nl']]
     if '【' in card[1]:
       card[1] = card[1].split('【')[1].replace('】', '')
-    audio_name = f'ic-nrkt-{"".join(card[0].split(" "))}.mp3'
+    audio_name = f'ic_nrkt_{"".join(card[0].split(" "))}.mp3'
     sound = f'[sound:{audio_name}]'
     card[0], card[1] = card[1], card[0]
     files[card[3].lower()].append([*card[:3], sound])

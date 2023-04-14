@@ -34,7 +34,7 @@ for n_key, n_lst in files.items():
       hiragana = find_td(particle, 'vr').find('p').text
       romaji = find_td(particle, 'vr').text.replace(hiragana, '') 
       info = find_td(particle, 'vm').text
-      audio_name = f'ic-nrkt-{"".join(romaji.split(" "))}.mp3'
+      audio_name = f'ic_nrkt_{"".join(romaji.split(" "))}.mp3'
       sound = f'[sound:{audio_name}]'
       card = [clean_txt(val) for val in [hiragana, romaji, info, sound]]
       if '【' in card[1]:
