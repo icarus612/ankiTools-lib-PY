@@ -40,8 +40,13 @@ sleep(3)
 driver.find_element(By.CSS_SELECTOR, 'a[role="log-in"]').click()
 sleep(20)
 
+no_h = []
+
 for card in fnl_lst:
-  file_name = card[3].split(":")[1][:-1].split('/')[0]
+  if card[0].strip() == "":
+    no_h.append(card)
+    continue
+  file_name = card[3].split(":")[1][:-1].split('/')[0] + ".mp3"
   driver.get(f'https://www.narakeet.com/languages/japanese-text-to-speech/')
   for _ in range(8):
     sleep(1)
@@ -69,3 +74,7 @@ for card in fnl_lst:
     elif status == 'error':
       raise Exception('An Error Occurred')
 
+with open('./missing-hiragana.txt', 'w') as f:
+  f.writelines([" | ".join(card) for card in no_h])
+
+print([h[1] for h in no_h])
