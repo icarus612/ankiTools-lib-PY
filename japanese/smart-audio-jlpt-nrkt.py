@@ -40,7 +40,7 @@ driver.find_element(By.CSS_SELECTOR, 'a[role="log-in"]').click()
 sleep(20)
 
 for card in fnl_lst:
-  file_name = f"ic_nrkt_{card[3].split(":")[1][:-1]}.mp3"
+  file_name = card[3].split(":")[1][:-1]
   driver.get(f'https://www.narakeet.com/languages/japanese-text-to-speech/')
   for _ in range(8):
     sleep(1)
@@ -59,9 +59,8 @@ for card in fnl_lst:
   for _ in range(8):
     sleep(5)
     status = driver.find_element(By.CSS_SELECTOR, '[data-show-stage]').get_attribute('stage').lower().strip()
-    print(status)
+    print(f'Word: {card[1]} ... {status}')
     if status == 'finished':					
-      card.append(f'[sound:{file_name}]')
       audio = requests.get(driver.find_element(By.CSS_SELECTOR, '[data-prop-link="result"]').get_attribute('href'))
       with open(os.path.join(audio_path, file_name), 'wb') as audio_file:
         audio_file.write(audio.content)
