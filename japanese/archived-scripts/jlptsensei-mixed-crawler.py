@@ -33,11 +33,12 @@ for i in range(1, 11):
     audio_name = f'ic_nrkt_{"".join(card[0].split(" "))}.mp3'
     sound = f'[sound:{audio_name}]'
     card[0], card[1] = card[1], card[0]
-    files[card[3].lower()].append([*card[:3], sound])
+    proxy_lst.append([card[3], *card[:3], sound])
   if len(proxy_lst) == 0:
     break
   else:
-    n_lst.extend(proxy_lst)
+    for card in proxy_lst:
+      files[card[0].lower()].append(card[1:])
 
 for key, val in files.items():
   with open(f'./{type_key}/{key}.txt', 'w') as p_file:

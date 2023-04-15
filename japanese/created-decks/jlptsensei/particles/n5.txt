@@ -19,3 +19,7 @@
 を | o / wo | object marker particle | [sound:ic_nrkt_o/wo.mp3]
 たり ... たり | tari ... tari | do such things as A and B | [sound:ic_nrkt_tari...tari.mp3]
 と | to | and; with; as; connecting particle | [sound:ic_nrkt_to.mp3]
+は | wa - topic marker | topic marker | [sound:ic_nrkt_wa-topicmarker.mp3]
+や | ya | and; or; connecting particle | [sound:ic_nrkt_ya.mp3]
+よ | yo | you know; emphasis (ending particle) | [sound:ic_nrkt_yo.mp3]
+より ... ほうが | yori  ... hou ga | [2] is more than [1] | [sound:ic_nrkt_yori...houga.mp3]

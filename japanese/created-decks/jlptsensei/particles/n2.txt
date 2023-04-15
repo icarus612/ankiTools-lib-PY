@@ -9,3 +9,8 @@
 のみ | nomi | only; nothing but​ | [sound:ic_nrkt_nomi.mp3]
 ては / では | tewa / dewa | whenever; if; when ... ; repetitive action | [sound:ic_nrkt_tewa/dewa.mp3]
 ては ... ては | tewa ... tewa | repetitive situations/actions | [sound:ic_nrkt_tewa...tewa.mp3]
+とか（で） | toka (de) | I heard that  ...  | [sound:ic_nrkt_toka(de).mp3]
+とも | tomo | even if; no matter (who, what, when, where, why, how); though  ...  | [sound:ic_nrkt_tomo.mp3]
+つつ | tsutsu | while; even though; despite  ...  | [sound:ic_nrkt_tsutsu.mp3]
+やら ... やら | yara ... yara | such things as A and B; A and B and so on  ...  | [sound:ic_nrkt_yara...yara.mp3]
+より [2] | yori | from ...  (a time, place, or person) | [sound:ic_nrkt_yori.mp3]

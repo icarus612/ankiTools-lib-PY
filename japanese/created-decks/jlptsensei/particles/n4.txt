@@ -19,3 +19,6 @@
 ても | temo | even; even if; even though  ...  | [sound:ic_nrkt_temo.mp3]
 と | to | whenever [A] happens, [B] also happens | [sound:ic_nrkt_to.mp3]
 という | to iu | called; named; that  ...  | [sound:ic_nrkt_toiu.mp3]
+とか ... とか | toka ... toka | among other things; such as; like  ...  | [sound:ic_nrkt_toka...toka.mp3]
+って | tte | named; called  ...  | [sound:ic_nrkt_tte.mp3]
+より | yori | than; rather than; more than  ...  | [sound:ic_nrkt_yori.mp3]
