@@ -10,5 +10,5 @@ for el in page.find_all('tr', {'class': 'table-responsive'}):
 	if len(td) != 3: 
 		continue
 	cards.append(''.join(f'<b>Command</b>: {td[0]} | <b>SQL command</b> used to {td[2].lower()}. | {td[1]}'))
-	with open(f'{getcwd()}/output.txt', 'w') as file:
+	with open(f'{getcwd()}/sql-basic.txt', 'w') as file:
 		file.writelines([f'{i} \n' for i in cards])
