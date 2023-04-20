@@ -5,8 +5,9 @@ import re
 
 page =  soup(requests.get('https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet/').content, 'html.parser')
 cards = []
-for el in page.find_all('tr', {'class': 'table-responsive'}):
+for el in page.find_all('tr'):
 	td = [e.text for e in el.find_all('td')]
+	print(td)
 	if len(td) != 3: 
 		continue
 	cards.append(''.join(f'<b>Command</b>: {td[0]} | <b>SQL command</b> used to {td[2].lower()}. | {td[1]}'))
