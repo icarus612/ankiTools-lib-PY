@@ -1,0 +1,15 @@
+<b>Path method</b> used to return the last portion of a path, similar tothe Unix basename command. Trailing directory separators areignored. | path.basename(<i>path[, suffix]</i>) 
+<b>Path property</b> used to ic path delimiter: | path.delimiter 
+<b>Path method</b> used to return the directory name of a path, similar tothe Unix dirname command. Trailing directory separators are ignored, seepath.sep. | path.dirname(<i>path</i>) 
+<b>Path method</b> used to return the extension of the path, from the lastoccurrence of the . (period) character to end of string in the last portion ofthe path. If there is no . in the last portion of the path, or ifthere are no . characters other than the first character ofthe basename of path (see path.basename()) , an empty string is returned. | path.extname(<i>path</i>) 
+<b>Path method</b> used to return a path string from an object. This is theopposite of path.parse(). | path.format(<i>pathObject</i>) 
+<b>Path method</b> used to determine if path is an absolute path. | path.isAbsolute(<i>path</i>) 
+<b>Path method</b> used to join all given path segments together using theplatform-specific separator as a delimiter, then normalizes the resulting path. | path.join(<i>[...paths]</i>) 
+<b>Path method</b> used to normalize the given path, resolving '..' and'.' segments. | path.normalize(<i>path</i>) 
+<b>Path method</b> used to return an object whose properties representsignificant elements of the path. Trailing directory separators are ignored,see path.sep. | path.parse(<i>path</i>) 
+<b>Path property</b> used to provide access to POSIX specific implementationsof the path methods. | path.posix 
+<b>Path method</b> used to return the relative path from from to to basedon the current working directory. If from and to each resolve to the samepath (after calling path.resolve() on each), a zero-length string is returned. | path.relative(<i>from, to</i>) 
+<b>Path method</b> used to resolve a sequence of paths or path segments intoan absolute path. | path.resolve(<i>[...paths]</i>) 
+<b>Path property</b> used to specific path segment separator: | path.sep 
+<b>Path method</b> used to equivalent namespace-prefixed path forthe given path. If path is not a string, path will be returned withoutmodifications. | path.toNamespacedPath(<i>path</i>) 
+<b>Path property</b> used to provide access to Windows-specific implementationsof the path methods. | path.win32 

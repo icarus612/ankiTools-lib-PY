@@ -1,0 +1,8 @@
+<b>Https property</b> used to similar to http.Agent. Seehttps.request() for more information. | https.Agent 
+<b>Https property</b> used to nformation. | https.Server 
+<b>Https method</b> used to  | https.createServer(<i>[options][, requestListener]</i>) 
+<b>Https method</b> used to | https.get(<i>options[, callback]</i>) 
+<b>Https method</b> used to https. | https.get(<i>url[, options][, callback]</i>) 
+<b>Https property</b> used to for all HTTPS client requests. | https.globalAgent 
+<b>Https method</b> used to | https.request(<i>options[, callback]</i>) 
+<b>Https method</b> used to web server. | https.request(<i>url[, options][, callback]</i>) 

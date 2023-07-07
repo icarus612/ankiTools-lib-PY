@@ -1,0 +1,18 @@
+<b>Http property</b> used to an Agent is responsible for managing connection persistenceand reuse for HTTP clients. It maintains a queue of pending requestsfor a given host and port, reusing a single socket connection for eachuntil the queue is empty, at which time the socket is either destroyedor put into a pool where it is kept to be used again for requests to thesame host and port. Whether it is destroyed or pooled depends on thekeepAlive option. | http.Agent 
+<b>Http property</b> used to thi object is created internally and returned from http.request(). Itrepresents an in-progress request whose header has already been queued. Theheader is still mutable using the setHeader(name, value),getHeader(name), removeHeader(name) API. The actual header willbe sent along with the first data chunk or when calling request.end(). | http.ClientRequest 
+<b>Http property</b> used to emitted each time a request with an HTTP Expect: 100-continue is received.If this event is not listened for, the server will automatically respondwith a 100 Continue as appropriate. | http.Server 
+<b>Http property</b> used to thi object is created internally by an HTTP server, not by the user. It ispassed as the second parameter to the 'request' event. | http.ServerResponse 
+<b>Http property</b> used to an IncomingMessage object is created by http.Server orhttp.ClientRequest and passed as the first argument to the 'request'and 'response' event respectively. It may be used to access responsestatus, headers, and data. | http.IncomingMessage 
+<b>Http property</b> used to thi class serves as the parent class of http.ClientRequestand http.ServerResponse. It is an abstract outgoing message fromthe perspective of the participants of an HTTP transaction. | http.OutgoingMessage 
+<b>Http property</b> used to a list of the HTTP methods that are supported by the parser. | http.METHODS 
+<b>Http property</b> used to a collection of all the standard HTTP response status codes, and theshort description of each. For example, http.STATUS_CODES[404] === 'Not Found'. | http.STATUS_CODES 
+<b>Http method</b> used to return a new instance of http.Server. | http.createServer(<i>[options][, requestListener]</i>) 
+<b>Http method</b> used to | http.get(<i>options[, callback]</i>) 
+<b>Http method</b> used to since most requests are GET requests without bodies, Node.js provides thisconvenience method. The only difference between this method andhttp.request() is that it sets the method to GET and calls req.end()automatically. The callback must take care to consume the responsedata for reasons stated in http.ClientRequest section. | http.get(<i>url[, options][, callback]</i>) 
+<b>Http property</b> used to global instance of Agent which is used as the default for all HTTP clientrequests. | http.globalAgent 
+<b>Http property</b> used to read-only property specifying the maximum allowed size of HTTP headers in bytes.Defaults to 16 KiB. Configurable using the --max-http-header-size CLIoption. | http.maxHeaderSize 
+<b>Http method</b> used to | http.request(<i>options[, callback]</i>) 
+<b>Http method</b> used to option in socket.connect() are also supported. | http.request(<i>url[, options][, callback]</i>) 
+<b>Http method</b> used to perform the low-level validations on the provided name that are done whenres.setHeader(name, value) is called. | http.validateHeaderName(<i>name[, label]</i>) 
+<b>Http method</b> used to perform the low-level validations on the provided value that are done whenres.setHeader(name, value) is called. | http.validateHeaderValue(<i>name, value</i>) 
+<b>Http method</b> used to set the maximum number of idle HTTP parsers. | http.setMaxIdleHTTPParsers(<i>max</i>) 

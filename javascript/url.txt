@@ -1,0 +1,48 @@
+<b>Url method</b> used to ect by parsing the input relative to the base. Ifbase is passed as a string, it will be parsed equivalent to new URL(base). | new URL(<i>input[, base]</i>) 
+<b>Url property</b> used to ment portion of the URL. | url.hash 
+<b>Url property</b> used to portion of the URL. | url.host 
+<b>Url property</b> used to e portion of the URL. The key difference betweenurl.host and url.hostname is that url.hostname does not include theport. | url.hostname 
+<b>Url property</b> used to alized URL. | url.href 
+<b>Url property</b> used to lization of the URL's origin. | url.origin 
+<b>Url property</b> used to portion of the URL. | url.password 
+<b>Url property</b> used to tion of the URL. | url.pathname 
+<b>Url property</b> used to portion of the URL. | url.port 
+<b>Url property</b> used to portion of the URL. | url.protocol 
+<b>Url property</b> used to ized query portion of the URL. | url.search 
+<b>Url property</b> used to t representing the query parameters of theURL. This property is read-only but the URLSearchParams object it providescan be used to mutate the URL instance; to replace the entirety of queryparameters of the URL, use the url.search setter. SeeURLSearchParams documentation for details. | url.searchParams 
+<b>Url property</b> used to portion of the URL. | url.username 
+<b>Url method</b> used to he URL object returns the serialized URL. Thevalue returned is equivalent to that of url.href and url.toJSON(). | url.toString() 
+<b>Url method</b> used to he URL object returns the serialized URL. Thevalue returned is equivalent to that of url.href andurl.toString(). | url.toJSON() 
+<b>Url method</b> used to | URL.createObjectURL(<i>blob</i>) 
+<b>Url method</b> used to | URL.revokeObjectURL(<i>id</i>) 
+<b>Url method</b> used to e to the base can be parsed to a URL. | URL.canParse(<i>input[, base]</i>) 
+<b>Url method</b> used to param object. | new URLSearchParams() 
+<b>Url method</b> used to g, and use it to instantiate a newURLSearchParams object. A leading '?', if present, is ignored. | new URLSearchParams(<i>string</i>) 
+<b>Url method</b> used to object with a query hash map. The key andvalue of each property of obj are always coerced to strings. | new URLSearchParams(<i>obj</i>) 
+<b>Url method</b> used to object with an iterable map in a way thatis similar to Map's constructor. iterable can be an Array or anyiterable object. That means iterable can be another URLSearchParams, inwhich case the constructor will simply create a clone of the providedURLSearchParams. Elements of iterable are key-value pairs, and canthemselves be any iterable object. | new URLSearchParams(<i>iterable</i>) 
+<b>Url method</b> used to query string. | urlSearchParams.append(<i>name, value</i>) 
+<b>Url method</b> used to me-value pairswhere name is name and value is value.. | urlSearchParams.delete(<i>name[, value]</i>) 
+<b>Url method</b> used to the name-value pairs in the query.Each item of the iterator is a JavaScript Array. The first item of the Arrayis the name, the second item of the Array is the value. | urlSearchParams.entries() 
+<b>Url method</b> used to the query and invokes the given function. | urlSearchParams.forEach(<i>fn[, thisArg]</i>) 
+<b>Url method</b> used to me-value pair whose name is name. If thereare no such pairs, null is returned. | urlSearchParams.get(<i>name</i>) 
+<b>Url method</b> used to pair whose name is name. If there areno such pairs, an empty array is returned. | urlSearchParams.getAll(<i>name</i>) 
+<b>Url method</b> used to ect contains key-value pair(s) based onname and an optional value argument. | urlSearchParams.has(<i>name[, value]</i>) 
+<b>Url method</b> used to ame of each name-value pair. | urlSearchParams.keys() 
+<b>Url method</b> used to ram object associated with name tovalue. If there are any pre-existing name-value pairs whose names are name,set the first such pair's value to value and remove all others. If not,append the name-value pair to the query string. | urlSearchParams.set(<i>name, value</i>) 
+<b>Url property</b> used to ies. | urlSearchParams.size 
+<b>Url method</b> used to in-place by their names. Sorting is donewith a stable sorting algorithm, so relative order between name-value pairswith the same name is preserved. | urlSearchParams.sort() 
+<b>Url method</b> used to ed as a string, with characterspercent-encoded where necessary. | urlSearchParams.toString() 
+<b>Url method</b> used to ue of each name-value pair. | urlSearchParams.values() 
+<b>Url method</b> used to value pairs in the query string.Each item of the iterator is a JavaScript Array. The first item of the Arrayis the name, the second item of the Array is the value. | urlSearchParams[Symbol.iterator]() 
+<b>Url property</b> used to rname and password portion of the URL, alsoreferred to as userinfo. This string subset follows the protocol anddouble slashes (if present) and precedes the host component, delimited by @.The string is either the username, or it is the username and password separatedby :. | urlObject.auth 
+<b>Url property</b> used to gment identifier portion of the URL including theleading # character. | urlObject.hash 
+<b>Url property</b> used to l lower-cased host portion of the URL, includingthe port if specified. | urlObject.host 
+<b>Url property</b> used to er-cased host name portion of the hostcomponent without the port included. | urlObject.hostname 
+<b>Url property</b> used to l URL string that was parsed with both theprotocol and host components converted to lower-case. | urlObject.href 
+<b>Url property</b> used to tenation of the pathname and searchcomponents. | urlObject.path 
+<b>Url property</b> used to f the entire path section of the URL. Thisis everything following the host (including the port) and before the startof the query or hash components, delimited by either the ASCII questionmark (?) or hash (#) characters. | urlObject.pathname 
+<b>Url property</b> used to eric port portion of the host component. | urlObject.port 
+<b>Url property</b> used to the URL's lower-cased protocol scheme. | urlObject.protocol 
+<b>Url property</b> used to the query string without the leading ASCIIquestion mark (?), or an object returned by the querystring module'sparse() method. Whether the query property is a string or object isdetermined by the parseQueryString argument passed to url.parse(). | urlObject.query 
+<b>Url property</b> used to f the entire "query string" portion of theURL, including the leading ASCII question mark (?) character. | urlObject.search 
+<b>Url property</b> used to an with a value of true if two ASCIIforward-slash characters (/) are required following the colon in theprotocol. | urlObject.slashes 

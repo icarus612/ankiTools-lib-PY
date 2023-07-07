@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as soup
 from os import mkdir, getcwd, mkdir
+from sys import argv
 import re
 
 def make_folder(name): 
@@ -13,17 +14,28 @@ home_page =  soup(requests.get('https://www.w3schools.com/jsref/default.asp').co
 url_arr = [[{"url": a['href'], "title": a.text}  for a in div.find_all('a')] for div in home_page.find_all("div", {'class': 'refcont'})]
 title_arr = ['Built-in Objects', 'Window', 'DOM', 'Web Api',]
 make_folder('output/')	
+start = 0 
+end = len(title_arr) 
+if len(argv) > 1: 
+	start = int(argv[1])
+	end = start + 1
+if len(argv) > 2:
+	end = int(argv[2])
 
-for idx, t in enumerate(title_arr):
+placement = slice(start, end)
+title_placement = title_arr[placement]
+url_placement = url_arr[placement]
+
+for idx, t in enumerate(title_placement):
 	title = "".join(t.split())
 	make_folder(f'output/{title}')	
-	for url in url_arr[idx]:
+	for url in url_placement[idx]:
 		print(f'getting the content for {url["title"]}')
 		cards = []
 		try:
 			res = soup(requests.get(f'https://www.w3schools.com/jsref/{url["url"]}').content, 'html.parser')
 		except:
-			url_arr[idx]["url"].append(url)
+			url_placement[idx]["url"].append(url)
 			continue
 		for table in res.find_all('table', {'class': 'ws-table-all'}):
 			bold = ''

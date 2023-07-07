@@ -1,0 +1,24 @@
+<b>Util method</b> used to function that returns a Promise) and returns afunction following the error-first callback style, i.e. takingan (err, value) => ... callback as the last argument. In the callback, thefirst argument will be the rejection reason (or null if the Promiseresolved), and the second argument will be the resolved value. | util.callbackify(<i>original</i>) 
+<b>Util method</b> used to i used to create a function that conditionallywrites debug messages to stderr based on the existence of the NODE_DEBUGenvironment variable. If the section name appears within the value of thatenvironment variable, then the returned function operates similar toconsole.error(). If not, then the returned function is a no-op. | util.debuglog(<i>section[, callback]</i>) 
+<b>Util method</b> used to usage allows for readability of that doesn't implylogging when only using util.debuglog().enabled. | util.debug(<i>section</i>) 
+<b>Util method</b> used to wrap fn (which may be a function or class) insuch a way that it is marked as deprecated. | util.deprecate(<i>fn, msg[, code]</i>) 
+<b>Util method</b> used to return a formatted string using the first argumentas a printf-like format string which can contain zero or more formatspecifiers. Each specifier is replaced with the converted value from thecorresponding argument. Supported specifiers are: | util.format(<i>format[, ...args]</i>) 
+<b>Util method</b> used to ormat(), except in that it takesan inspectOptions argument which specifies options that are passed along toutil.inspect(). | util.formatWithOptions(<i>inspectOptions, format[, ...args]</i>) 
+<b>Util method</b> used to error code that comes from a Node.js API.The mapping between error codes and error names is platform-dependent.See Common System Errors for the names of common errors. | util.getSystemErrorName(<i>err</i>) 
+<b>Util method</b> used to de available from the Node.js API.The mapping between error codes and error names is platform-dependent.See Common System Errors for the names of common errors. | util.getSystemErrorMap() 
+<b>Util method</b> used to | util.inherits(<i>constructor, superConstructor</i>) 
+<b>Util method</b> used to | util.inspect(<i>object[, options]</i>) 
+<b>Util method</b> used to return a string representation of object that isintended for debugging. The output of util.inspect may change at any timeand should not be depended upon programmatically. Additional options may bepassed that alter the result.util.inspect() will use the constructor's name and/or @@toStringTag to makean identifiable tag for an inspected value. | util.inspect(<i>object[, showHidden[, depth[, colors]]]</i>) 
+<b>Util method</b> used to equality between val1 and val2.Otherwise, returns false. | util.isDeepStrictEqual(<i>val1, val2</i>) 
+<b>Util property</b> used to | util.MIMEType 
+<b>Util property</b> used to ead and write access to the parameters of aMIMEType. | util.MIMEParams 
+<b>Util method</b> used to for command-line argument parsing than interactingwith process.argv directly. Takes a specification for the expected argumentsand returns a structured object with the parsed options and positionals. | util.parseArgs(<i>[config]</i>) 
+<b>Util method</b> used to he common error-first callback style, i.e. takingan (err, value) => ... callback as the last argument, and returns a versionthat returns promises. | util.promisify(<i>original</i>) 
+<b>Util method</b> used to ved. | util.stripVTControlCharacters(<i>str</i>) 
+<b>Util property</b> used to g Encoding Standard TextDecoder API. | util.TextDecoder 
+<b>Util property</b> used to g Encoding Standard TextEncoder API. Allinstances of TextEncoder only support UTF-8 encoding. | util.TextEncoder 
+<b>Util method</b> used to cing any surrogate code points(or equivalently, any unpaired surrogate code units) with theUnicode "replacement character" U+FFFD. | util.toUSVString(<i>string</i>) 
+<b>Util method</b> used to | util.transferableAbortController() 
+<b>Util method</b> used to | util.transferableAbortSignal(<i>signal</i>) 
+<b>Util method</b> used to | util.aborted(<i>signal, resource</i>) 
+<b>Util property</b> used to check for different kinds of built-in objects.Unlike instanceof or Object.prototype.toString.call(value), these checks donot inspect properties of the object that are accessible from JavaScript (liketheir prototype), and usually have the overhead of calling into C++. | util.types 

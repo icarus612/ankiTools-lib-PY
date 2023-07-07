@@ -1,0 +1,64 @@
+<b>Process method</b> used to cause the Node.js process to exit immediately andgenerate a core file. | process.abort() 
+<b>Process property</b> used to i a special,read-only Set of flags allowable within the NODE_OPTIONSenvironment variable. | process.allowedNodeEnvironmentFlags 
+<b>Process property</b> used to rchitecture for which the Node.js binary was compiled.Possible values are: 'arm', 'arm64', 'ia32', 'mips','mipsel', 'ppc','ppc64', 's390', 's390x', and 'x64'. | process.arch 
+<b>Process property</b> used to return an array containing the command-linearguments passed when the Node.js process was launched. The first element willbe process.execPath. See process.argv0 if access to the original valueof argv[0] is needed. The second element will be the path to the JavaScriptfile being executed. The remaining elements will be any additional command-linearguments. | process.argv 
+<b>Process property</b> used to store a read-only copy of the original value ofargv[0] passed when Node.js starts. | process.argv0 
+<b>Process property</b> used to awned with an IPC channel (see theChild Process documentation), the process.channelproperty is a reference to the IPC channel. If no IPC channel exists, thisproperty is undefined. | process.channel 
+<b>Process method</b> used to change the current working directory of theNode.js process or throws an exception if doing so fails (for instance, ifthe specified directory does not exist). | process.chdir(<i>directory</i>) 
+<b>Process property</b> used to return a frozen Object containing theJavaScript representation of the configure options used to compile the currentNode.js executable. This is the same as the config.gypi file that was producedwhen running the ./configure script. | process.config 
+<b>Process property</b> used to ed with an IPC channel (see the Child Processand Cluster documentation), the process.connected property will returntrue so long as the IPC channel is connected and will return false afterprocess.disconnect() is called. | process.connected 
+<b>Process method</b> used to | process.constrainedMemory() 
+<b>Process method</b> used to return the user and system CPU time usage ofthe current process, in an object with properties user and system, whosevalues are microsecond values (millionth of a second). These values measure timespent in user and system code respectively, and may end up being greater thanactual elapsed time if multiple CPU cores are performing work for this process. | process.cpuUsage(<i>[previousValue]</i>) 
+<b>Process method</b> used to return the current working directory of the Node.jsprocess. | process.cwd() 
+<b>Process property</b> used to bugger when enabled. | process.debugPort 
+<b>Process method</b> used to d with an IPC channel (see the Child Processand Cluster documentation), the process.disconnect() method will close theIPC channel to the parent process, allowing the child process to exit gracefullyonce there are no other connections keeping it alive. | process.disconnect() 
+<b>Process method</b> used to allow dynamically loading shared objects. It isprimarily used by require() to load C++ Addons, and should not be useddirectly, except in special cases. In other words, require() should bepreferred over process.dlopen() unless there are specific reasons such ascustom dlopen flags or loading from ES modules. | process.dlopen(<i>module, filename[, flags]</i>) 
+<b>Process method</b> used to can be used to emit custom or applicationspecific process warnings. These can be listened for by adding a handler to the'warning' event. | process.emitWarning(<i>warning[, options]</i>) 
+<b>Process method</b> used to can be used to emit custom or applicationspecific process warnings. These can be listened for by adding a handler to the'warning' event. | process.emitWarning(<i>warning[, type[, code]][, ctor]</i>) 
+<b>Process property</b> used to return an object containing the user environment.See environ(7). | process.env 
+<b>Process property</b> used to return the set of Node.js-specific command-lineoptions passed when the Node.js process was launched. These options do notappear in the array returned by the process.argv property, and do notinclude the Node.js executable, the name of the script, or any options followingthe script name. These options are useful in order to spawn child processes withthe same execution environment as the parent. | process.execArgv 
+<b>Process property</b> used to return the absolute pathname of the executablethat started the Node.js process. Symbolic links, if any, are resolved. | process.execPath 
+<b>Process method</b> used to instruct Node.js to terminate the processsynchronously with an exit status of code. If code is omitted, exit useseither the 'success' code 0 or the value of process.exitCode if it has beenset. Node.js will not terminate until all the 'exit' event listeners arecalled. | process.exit(<i>[code]</i>) 
+<b>Process property</b> used to ces exit code, when the process eitherexits gracefully, or is exited via process.exit() without specifyinga code. | process.exitCode 
+<b>Process method</b> used to | process.getActiveResourcesInfo() 
+<b>Process method</b> used to return the numerical effective group identityof the Node.js process. (See getegid(2).) | process.getegid() 
+<b>Process method</b> used to return the numerical effective user identity ofthe process. (See geteuid(2).) | process.geteuid() 
+<b>Process method</b> used to return the numerical group identity of theprocess. (See getgid(2).) | process.getgid() 
+<b>Process method</b> used to return an array with the supplementary groupIDs. POSIX leaves it unspecified if the effective group ID is included butNode.js ensures it always is. | process.getgroups() 
+<b>Process method</b> used to return the numeric user identity of the process.(See getuid(2).) | process.getuid() 
+<b>Process method</b> used to tuncaughtexceptioncapturecallback(). | process.hasUncaughtExceptionCaptureCallback() 
+<b>Process method</b> used to | process.hrtime(<i>[time]</i>) 
+<b>Process method</b> used to rtime() method returning thecurrent high-resolution real time in nanoseconds as a bigint. | process.hrtime.bigint() 
+<b>Process method</b> used to read the /etc/group file and initializesthe group access list, using all groups of which the user is a member. This isa privileged operation that requires that the Node.js process either have rootaccess or the CAP_SETGID capability. | process.initgroups(<i>user, extraGroup</i>) 
+<b>Process method</b> used to send the signal to the process identified bypid. | process.kill(<i>pid[, signal]</i>) 
+<b>Process property</b> used to | process.mainModule 
+<b>Process method</b> used to memory usage of the Node.js process measured inbytes. | process.memoryUsage() 
+<b>Process method</b> used to return an integer representing theResident Set Size (RSS) in bytes. | process.memoryUsage.rss() 
+<b>Process method</b> used to ck to the "next tick queue". This queue isfully drained after the current operation on the JavaScript stack runs tocompletion and before the event loop is allowed to continue. It's possible tocreate an infinite loop if one were to recursively call process.nextTick().See the Event Loop guide for more background. | process.nextTick(<i>callback[, ...args]</i>) 
+<b>Process property</b> used to indicate whether the --no-deprecationflag is set on the current Node.js process. See the documentation forthe 'warning' event and theemitWarning() method for more information about thisflag's behavior. | process.noDeprecation 
+<b>Process property</b> used to e --experimental-permission flag. | process.permission 
+<b>Process property</b> used to return the PID of the process. | process.pid 
+<b>Process property</b> used to return a string identifying the operatingsystem platform for which the Node.js binary was compiled. | process.platform 
+<b>Process property</b> used to return the PID of the parent of thecurrent process. | process.ppid 
+<b>Process property</b> used to return an Object containing metadata relatedto the current release, including URLs for the source tarball and headers-onlytarball. | process.release 
+<b>Process property</b> used to whose methods are used to generate diagnosticreports for the current process. Additional documentation is available in thereport documentation. | process.report 
+<b>Process method</b> used to | process.resourceUsage() 
+<b>Process method</b> used to an IPC channel, the process.send() method can beused to send messages to the parent process. Messages will be received as a'message' event on the parent's ChildProcess object. | process.send(<i>message[, sendHandle[, options]][, callback]</i>) 
+<b>Process method</b> used to set the effective group identity of the process.(See setegid(2).) The id can be passed as either a numeric ID or a groupname string. If a group name is specified, this method blocks while resolvingthe associated a numeric ID. | process.setegid(<i>id</i>) 
+<b>Process method</b> used to set the effective user identity of the process.(See seteuid(2).) The id can be passed as either a numeric ID or a usernamestring. If a username is specified, the method blocks while resolving theassociated numeric ID. | process.seteuid(<i>id</i>) 
+<b>Process method</b> used to set the group identity of the process. (Seesetgid(2).) The id can be passed as either a numeric ID or a group namestring. If a group name is specified, this method blocks while resolving theassociated numeric ID. | process.setgid(<i>id</i>) 
+<b>Process method</b> used to set the supplementary group IDs for theNode.js process. This is a privileged operation that requires the Node.jsprocess to have root or the CAP_SETGID capability. | process.setgroups(<i>groups</i>) 
+<b>Process method</b> used to d sets the user identity of the process. (Seesetuid(2).) The id can be passed as either a numeric ID or a username string.If a username is specified, the method blocks while resolving the associatednumeric ID. | process.setuid(<i>id</i>) 
+<b>Process method</b> used to | process.setSourceMapsEnabled(<i>val</i>) 
+<b>Process method</b> used to n sets a functionthat will be invoked when an uncaught exception occurs, which will receive theexception value itself as its first argument. | process.setUncaughtExceptionCaptureCallback(<i>fn</i>) 
+<b>Process property</b> used to return a stream connected tostderr (fd 2). It is a net.Socket (which is a Duplexstream) unless fd 2 refers to a file, in which case it isa Writable stream. | process.stderr 
+<b>Process property</b> used to return a stream connected tostdin (fd 0). It is a net.Socket (which is a Duplexstream) unless fd 0 refers to a file, in which case it isa Readable stream. | process.stdin 
+<b>Process property</b> used to return a stream connected tostdout (fd 1). It is a net.Socket (which is a Duplexstream) unless fd 1 refers to a file, in which case it isa Writable stream. | process.stdout 
+<b>Process property</b> used to ecation indicates whether the--throw-deprecation flag is set on the current Node.js process.process.throwDeprecation is mutable, so whether or not deprecationwarnings result in errors may be altered at runtime. See thedocumentation for the 'warning' event and theemitWarning() method for more information. | process.throwDeprecation 
+<b>Process property</b> used to return the current process title (i.e. returnsthe current value of ps). Assigning a new value to process.title modifiesthe current value of ps. | process.title 
+<b>Process property</b> used to indicate whether the--trace-deprecation flag is set on the current Node.js process. See thedocumentation for the 'warning' event and theemitWarning() method for more information about thisflag's behavior. | process.traceDeprecation 
+<b>Process method</b> used to | process.umask() 
+<b>Process method</b> used to e Node.js process's file mode creation mask. Childprocesses inherit the mask from the parent process. Returns the previous mask. | process.umask(<i>mask</i>) 
+<b>Process method</b> used to return the number of seconds the current Node.jsprocess has been running. | process.uptime() 
+<b>Process property</b> used to contain the Node.js version string. | process.version 
+<b>Process property</b> used to return an object listing the version strings ofNode.js and its dependencies. process.versions.modules indicates the currentABI version, which is increased whenever a C++ API changes. Node.js will refuseto load modules that were compiled against a different module ABI version. | process.versions 

@@ -1,0 +1,23 @@
+<b>Os property</b> used to the operating system-specific end-of-line marker. | os.EOL 
+<b>Os method</b> used to return an estimate of the default amount of parallelism a program should use.Always returns a value greater than zero. | os.availableParallelism() 
+<b>Os method</b> used to return the operating system CPU architecture for which the Node.js binary wascompiled. Possible values are 'arm', 'arm64', 'ia32', 'mips','mipsel', 'ppc', 'ppc64', 's390', 's390x', and 'x64'. | os.arch() 
+<b>Os property</b> used to contain commonly used operating system-specific constants for error codes,process signals, and so on. The specific constants defined are described inOS constants. | os.constants 
+<b>Os method</b> used to return an array of objects containing information about each logical CPU core.The array will be empty if no CPU information is available, such as if the/proc file system is unavailable. | os.cpus() 
+<b>Os property</b> used to the platform-specific file path of the null device. | os.devNull 
+<b>Os method</b> used to return a string identifying the endianness of the CPU for which the Node.jsbinary was compiled. | os.endianness() 
+<b>Os method</b> used to return the amount of free system memory in bytes as an integer. | os.freemem() 
+<b>Os method</b> used to return the scheduling priority for the process specified by pid. If pid isnot provided or is 0, the priority of the current process is returned. | os.getPriority(<i>[pid]</i>) 
+<b>Os method</b> used to return the string path of the current user's home directory. | os.homedir() 
+<b>Os method</b> used to return the host name of the operating system as a string. | os.hostname() 
+<b>Os method</b> used to return an array containing the 1, 5, and 15 minute load averages. | os.loadavg() 
+<b>Os method</b> used to return the machine type as a string, such as arm, arm64, aarch64,mips, mips64, ppc64, ppc64le, s390, s390x, i386, i686, x86_64. | os.machine() 
+<b>Os method</b> used to return an object containing network interfaces that have been assigned anetwork address. | os.networkInterfaces() 
+<b>Os method</b> used to return a string identifying the operating system platform for whichthe Node.js binary was compiled. The value is set at compile time.Possible values are 'aix', 'darwin', 'freebsd','linux','openbsd', 'sunos', and 'win32'. | os.platform() 
+<b>Os method</b> used to return the operating system as a string. | os.release() 
+<b>Os method</b> used to attempt to set the scheduling priority for the process specified by pid. Ifpid is not provided or is 0, the process ID of the current process is used. | os.setPriority(<i>[pid, ]priority</i>) 
+<b>Os method</b> used to return the operating system's default directory for temporary files as astring. | os.tmpdir() 
+<b>Os method</b> used to return the total amount of system memory in bytes as an integer. | os.totalmem() 
+<b>Os method</b> used to return the operating system name as returned by uname(3). For example, itreturns 'Linux' on Linux, 'Darwin' on macOS, and 'Windows_NT' on Windows. | os.type() 
+<b>Os method</b> used to return the system uptime in number of seconds. | os.uptime() 
+<b>Os method</b> used to return information about the currently effective user. On POSIX platforms,this is typically a subset of the password file. The returned object includesthe username, uid, gid, shell, and homedir. On Windows, the uid andgid fields are -1, and shell is null. | os.userInfo(<i>[options]</i>) 
+<b>Os method</b> used to return a string identifying the kernel version. | os.version() 
