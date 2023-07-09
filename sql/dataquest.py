@@ -13,7 +13,7 @@ for el in page.find_all('h3'):
     back = b.text[len(front):]
     example = "<br />".join(e.text.split("\n"))
     print(front, back, example)
-    cards.append(''.join(f'<b>Command</b>: {front} | <b>SQL command</b> used to{back} | {example}'))
+    cards.append(''.join(f'<b>Statement</b>: {front} | <b>SQL statement</b> used to{back} | {example}'))
 
 with open(f'{getcwd()}/sql-basic.txt', 'w') as file:
   file.writelines([f'{i} \n' for i in cards])

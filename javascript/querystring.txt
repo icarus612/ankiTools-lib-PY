@@ -1,6 +1,0 @@
-<b>Querystring method</b> used to n is an alias for querystring.parse(). | querystring.decode() 
-<b>Querystring method</b> used to n is an alias for querystring.stringify(). | querystring.encode() 
-<b>Querystring method</b> used to perform URL percent-encoding on the givenstr in a manner that is optimized for the specific requirements of URLquery strings. | querystring.escape(<i>str</i>) 
-<b>Querystring method</b> used to parse a URL query string (str) into acollection of key and value pairs. | querystring.parse(<i>str[, sep[, eq[, options]]]</i>) 
-<b>Querystring method</b> used to produce a URL query string from agiven obj by iterating through the object's "own properties". | querystring.stringify(<i>obj[, sep[, eq[, options]]]</i>) 
-<b>Querystring method</b> used to perform decoding of URL percent-encodedcharacters on the given str. | querystring.unescape(<i>str</i>) 
