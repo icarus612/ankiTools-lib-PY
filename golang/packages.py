@@ -10,11 +10,9 @@ cards = []
 for el in [i.find('span') for i in page.find_all('h4') if 'func' in i.text]:
   name = el.find("a").text.strip()
   func = f'{lib}.{name}()'
-  info_start = f'<b>{lib.capitalize()} function</b> used to'
+  info_start = f'<b>{lib.capitalize()} function</b> that'
   p_el = el.find_next('p')
   info_end = p_el.text[len(name) + 1:].replace('\n', '').split(' ') if p_el else ['']
-  if len(info_end[0]) > 0 and info_end[0][-1] == 's': 
-    info_end[0] = info_end[0][:-1]
   with_options = el.find_next('div').find('pre').text
   info = info_start + ' ' + ' '.join(info_end)
   cards.append([func, info, '', with_options])
