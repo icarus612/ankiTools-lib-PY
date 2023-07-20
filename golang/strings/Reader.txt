@@ -1,0 +1,11 @@
+<i>Reader</i>.Len(<i></i>) | <b>Strings function</b> that returns the number of bytes of the unread portion of the string.  |  | func (r *Reader) Len() int 
+<i>Reader</i>.Read(<i>b</i>) | <b>Strings function</b> that implements the io.Reader interface.  |  | func (r *Reader) Read(b []byte) (n int, err error) 
+<i>Reader</i>.ReadAt(<i>b</i>, <i>off</i>) | <b>Strings function</b> that implements the io.ReaderAt interface.  |  | func (r *Reader) ReadAt(b []byte, off int64) (n int, err error) 
+<i>Reader</i>.ReadByte(<i></i>) | <b>Strings function</b> that implements the io.ByteReader interface.  |  | func (r *Reader) ReadByte() (byte, error) 
+<i>Reader</i>.ReadRune(<i></i>) | <b>Strings function</b> that implements the io.RuneReader interface.  |  | func (r *Reader) ReadRune() (ch rune, size int, err error) 
+<i>Reader</i>.Reset(<i>s</i>) | <b>Strings function</b> that resets the Reader to be reading from s.  |  | func (r *Reader) Reset(s string) 
+<i>Reader</i>.Seek(<i>offset</i>, <i>whence</i>) | <b>Strings function</b> that implements the io.Seeker interface.  |  | func (r *Reader) Seek(offset int64, whence int) (int64, error) 
+<i>Reader</i>.Size(<i></i>) | <b>Strings function</b> that returns the original length of the underlying string. Size is the number of bytes available for reading via ReadAt. The returned value is always the same and is not affected by calls to any other method.  |  | func (r *Reader) Size() int64 
+<i>Reader</i>.UnreadByte(<i></i>) | <b>Strings function</b> that implements the io.ByteScanner interface.  |  | func (r *Reader) UnreadByte() error 
+<i>Reader</i>.UnreadRune(<i></i>) | <b>Strings function</b> that implements the io.RuneScanner interface.  |  | func (r *Reader) UnreadRune() error 
+<i>Reader</i>.WriteTo(<i>w</i>) | <b>Strings function</b> that implements the io.WriterTo interface.  |  | func (r *Reader) WriteTo(w io.Writer) (n int64, err error) 

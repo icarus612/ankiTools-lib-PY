@@ -1,0 +1,9 @@
+<i>Builder</i>.Cap(<i></i>) | <b>Strings function</b> that returns the capacity of the builder's underlying byte slice. It is the total space allocated for the string being built and includes any bytes already written.  |  | func (b *Builder) Cap() int 
+<i>Builder</i>.Grow(<i>n</i>) | <b>Strings function</b> that grows b's capacity, if necessary, to guarantee space for another n bytes. After Grow(n), at least n bytes can be written to b without another allocation. If n is negative, Grow panics.  |  | func (b *Builder) Grow(n int) 
+<i>Builder</i>.Len(<i></i>) | <b>Strings function</b> that returns the number of accumulated bytes; b.Len() == len(b.String()).  |  | func (b *Builder) Len() int 
+<i>Builder</i>.Reset(<i></i>) | <b>Strings function</b> that resets the Builder to be empty.  |  | func (b *Builder) Reset() 
+<i>Builder</i>.String(<i></i>) | <b>Strings function</b> that returns the accumulated string.  |  | func (b *Builder) String() string 
+<i>Builder</i>.Write(<i>p</i>) | <b>Strings function</b> that appends the contents of p to b's buffer. Write always returns len(p), nil.  |  | func (b *Builder) Write(p []byte) (int, error) 
+<i>Builder</i>.WriteByte(<i>c</i>) | <b>Strings function</b> that appends the byte c to b's buffer. The returned error is always nil.  |  | func (b *Builder) WriteByte(c byte) error 
+<i>Builder</i>.WriteRune(<i>r</i>) | <b>Strings function</b> that appends the UTF-8 encoding of Unicode code point r to b's buffer. It returns the length of r and a nil error.  |  | func (b *Builder) WriteRune(r rune) (int, error) 
+<i>Builder</i>.WriteString(<i>s</i>) | <b>Strings function</b> that appends the contents of s to b's buffer. It returns the length of s and a nil error.  |  | func (b *Builder) WriteString(s string) (int, error) 

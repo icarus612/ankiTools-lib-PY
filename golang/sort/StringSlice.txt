@@ -1,0 +1,5 @@
+<i>StringSlice</i>.Len(<i></i>) | <b>Sort function</b> that ch returns the result of applying SearchStrings to the receiver and x.  |  | func (x StringSlice) Len() int 
+<i>StringSlice</i>.Less(<i>i</i>, <i>j</i>) | <b>Sort function</b> that h returns the result of applying SearchStrings to the receiver and x.  |  | func (x StringSlice) Less(i, j int) bool 
+<i>StringSlice</i>.Search(<i>x</i>) | <b>Sort function</b> that returns the result of applying SearchStrings to the receiver and x.  |  | func (p StringSlice) Search(x string) int 
+<i>StringSlice</i>.Sort(<i></i>) | <b>Sort function</b> that is a convenience method: x.Sort() calls Sort(x).  |  | func (x StringSlice) Sort() 
+<i>StringSlice</i>.Swap(<i>i</i>, <i>j</i>) | <b>Sort function</b> that   |  | func (x StringSlice) Swap(i, j int) 

@@ -1,0 +1,3 @@
+<i>SyscallError</i>.Error(<i></i>) | <b>Os function</b> that t reports whether this error represents a timeout.  |  | func (e *SyscallError) Error() string 
+<i>SyscallError</i>.Timeout(<i></i>) | <b>Os function</b> that reports whether this error represents a timeout.  |  | func (e *SyscallError) Timeout() bool 
+<i>SyscallError</i>.Unwrap(<i></i>) | <b>Os function</b> that   |  | func (e *SyscallError) Unwrap() error 
