@@ -12,7 +12,9 @@ for el in page.find_all('dl'):
 	if item:
 		u_item = item.text.strip().replace('¶', '').replace(' → int', '').replace(' → float', '').replace('(', '(<i>').replace(')', '</i>)')
 		prop_type = 'method' if item.text.count('(') != 0 else 'property'
-		title = f'<b>{lib.title()} {prop_type}</b> used to'
+		p_el = el.find_next('p').text.replace('\n', ' ').split(' ')
+		p_el[0] = p_el[0].lower()
+		title = f'<b>{lib.title()} {prop_type}</b> used to ' + ' '.join(p_el)
 		cards.append([title, u_item])
 
 
