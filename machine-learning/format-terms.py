@@ -1,4 +1,4 @@
-with open('./final-terms.txt', 'w') as t, open('./raw.txt', 'r') as u:	
+with open('./all-terms.txt', 'w') as t, open('./raw.txt', 'r') as u:	
   n = []
   f = []
   for i, line in enumerate(u.readlines()):

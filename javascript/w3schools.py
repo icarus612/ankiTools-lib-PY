@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup as soup
 from os import mkdir, getcwd, mkdir
 from sys import argv
-import re
 
 def make_folder(name): 
 	try: 

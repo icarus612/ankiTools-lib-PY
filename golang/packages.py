@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup as soup
 from sys import argv 
-from os import mkdir, listdir
+from os import makedirs
 
-lib = argv[1] if len(argv) > 1 else 'fmt'
+lib = argv[1] if len(argv) > 1 else 'builtin'
 #should_remove_start = len(argv) <= 2  or argv[2].lower() not in ['0', 'false', 'f', 'n', 'no']
-page =  soup(requests.get(f'https://pkg.go.dev/{lib}@go1.20.5').content, 'html.parser')
+page =  soup(requests.get(f'https://pkg.go.dev/{lib}@go1.21.0').content, 'html.parser')
 decks= {}
 
 for el in [i.find('span') for i in page.find_all('h4') if 'func' in i.text]:
@@ -27,8 +27,10 @@ for el in [i.find('span') for i in page.find_all('h4') if 'func' in i.text]:
   else:
     decks[deck_name] = [card]
 
-if lib not in listdir('./'):
-  mkdir(lib)
+try:
+  makedirs(lib)
+except:
+  pass
 
 for deck, cards in decks.items():
   with open(f'{lib}/{deck}.txt', 'w') as file:

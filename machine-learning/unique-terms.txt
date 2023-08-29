@@ -1,199 +1,174 @@
+Machine Learning Algorithms:
+
 Adaboost
-Adversarial Attack
-Adversarial Training
-Agent
-AlphaGo
-AlphaZero
-Anomaly Detection
-ANOVA (Analysis of Variance)
 Apriori Algorithm
-Attention Score
-AutoML (Automated Machine Learning)
-Backpropagation Through Time (BPTT)
-Bagging
-Bag-of-Words
-BatchNormalization Layer
-Batch Size
-Bayesian Network
-Bayesian Optimization
-Bayes' Theorem
-Beam Search
-Bias-Variance Tradeoff
-Big Data
-Bilinear Interpolation
-Boltzmann Distribution
-Boosting
-Bootstrapping
-Capsule Layer
-Central Limit Theorem
-Chatbot
-Checkpointing
-Class Activation Map (CAM)
-Class Imbalance
-Clipping Gradient
-Closed-Loop Control
-Cloud Computing
-Clustering
-Coefficient of Determination (R-squared)
-Cohort Analysis
-Collaborative Filtering
-Competitive Learning
-Computer Vision
-Conditional GAN (cGAN)
-Confusion Matrix
-Connectionist Temporal Classification (CTC)
-Contrastive Loss
-Convolution
-Convolutional Layer
-Correlation Coefficient
-Cosine Similarity
-Covariance
-Curiosity-Driven Exploration
-Cyclical Learning Rate
-Data Augmentation
-Data Leakage
-Decision Boundary
 Decision Tree
-Deconvolution
+K-Means Clustering
+K-Nearest Neighbors (KNN)
+LASSO Regression
+Linear Discriminant Analysis (LDA)
+Neural Network Architecture
+Principal Component Analysis (PCA)
+Random Search
+Support Vector Machine (SVM)
+
+Deep Learning Concepts:
+
+Attention Score
+Backpropagation Through Time (BPTT)
+Capsule Layer
+Convolutional Layer
 Deep Belief Network (DBN)
 Deep Q-Network (DQN)
-Denoising Autoencoder
-Deterministic Policy Gradient
 Dropout
-Dynamic Programming
-Echo State Network (ESN)
-Episodic Memory
+LSTM (Long Short-Term Memory)
+Generative Model
+GPT (Generative Pre-trained Transformer)
+Residual Networks (ResNets)
+Siamese Network
+Backpropagation Through Time (BPTT)
+Capsule Layer
+Class Imbalance
+Competitive Learning
+Convolutional Layer
+Deep Q-Network (DQN)
+Deconvolution
 Error Backpropagation
-Evolutionary Algorithms
-Evolutionary Strategy
-Expectation-Maximization (EM) Algorithm
-Exploding Gradient Problem
-Exploration vs. Exploitation
-Exploratory Data Analysis (EDA)
-Exponential Smoothing
-F1 Score
-Face Recognition
+Focal Loss
+Forward Propagation
+Fully Connected Layer
+GRU (Gated Recurrent Unit)
+LSTM (Long Short-Term Memory)
+Neuron
+Node
+Perceptron
+Polynomial Regression
+Precision-Recall Curve
+RNN (Recurrent Neural Network)
+Squeeze-and-Excitation (SE) Block
+
+Optimization and Regularization:
+
+Adversarial Training
+Adam Optimization
+BatchNormalization Layer
+Gradient Descent
+L1 Regularization
+L2 Regularization
+Momentum
+RMSProp Optimization
+Weight Decay
+Xavier Initialization
+
+Statistical Concepts:
+
+ANOVA (Analysis of Variance)
+Bayes' Theorem
+Coefficient of Determination (R-squared)
+Correlation Coefficient
+Covariance
+Gaussian Mixture Model (GMM)
+Normal Distribution
+p-value
+Variance
+
+Data Preprocessing and Augmentation:
+
+Bag-of-Words
+Data Augmentation
 Feature Engineering
 Feature Extraction
 Feature Scaling
-FLOPS (Floating Point Operations Per Second)
-Focal Loss
-Forward Propagation
-Free Energy
-Fully Connected Layer
-Function Approximation
-Fuzzy Logic
-Gaussian Mixture Model (GMM)
-Generative Model
-Genetic Algorithm
-Genetic Programming
-Gini Impurity
-GPT (Generative Pre-trained Transformer)
-Gradient Boosting
-Gradient Descent
-Graph Convolutional Network (GCN)
-Graph Neural Network
-Greedy Algorithm
-Grid Search
-GRU (Gated Recurrent Unit)
-Hamiltonian Monte Carlo
-Hierarchical Clustering
-Hierarchical Reinforcement Learning
-HMM (Hidden Markov Model)
-Hopfield Network
-Image Recognition
-Image Segmentation
-Imbalanced Data
-Inductive Bias
-Information Gain
-Instance-based Learning
-Instance Segmentation
-Interpolation
-Interpretability
-IoU (Intersection over Union)
-Jacobian Matrix
-Kernel
-Kernel Density Estimation
-K-Means Clustering
-K-Nearest Neighbors (KNN)
-L1 Regularization
-L2 Regularization
-Label Encoding
-Label Smoothing
-LASSO Regression
-Latent Dirichlet Allocation (LDA)
-Latent Space
-LDA (Linear Discriminant Analysis)
-Leaky ReLU
-Learning Rate Schedule
-Local Search
-Log-Loss
-Long Short-Term Memory (LSTM)
-Markov Chain
-Markov Chain Monte Carlo (MCMC)
-Masked Language Model (MLM)
-Maximum Likelihood Estimation (MLE)
-Max Pooling
-Mean Absolute Error (MAE)
-Memory Network
 Minibatch
+Normalization
+Zero Padding
+
+Ensemble Methods:
+
+Bagging
+Boosting
+Gradient Boosting
+Random Forest
+Stacking
+
+Neural Network Components:
+
+Activation Functions
+Batch Size
+Convolution
+Fully Connected Layer
+Max Pooling
+Pooling Layer
+ReLU (Rectified Linear Activation)
+Softmax Activation
+Big Data
+Connectionist Temporal Classification (CTC)
 Model Capacity
-Model Compression
-Model Evaluation
-Model Zoo
-Momentum
-Monty Hall Problem
-Mutual Information
+Normalization Layer
+Target Variable
+Vanishing Gradient Problem
+
+Reinforcement Learning and Agent Concepts:
+
+Agent
+Deep Q-Network (DQN)
+Deterministic Policy Gradient
+Exploration vs. Exploitation
+Markov Chain
+Reinforcement Learning
+Temporal Difference Learning
+Closed-Loop Control
+Deterministic Policy Gradient
+Hierarchical Reinforcement Learning
+Policy Gradient
+
+Data Analysis and Visualization:
+
+Cohort Analysis
+Exploratory Data Analysis (EDA)
+Histogram
+Scatter Plot
+Time Series Forecasting
+Central Limit Theorem
+Clustering
+Confusion Matrix
+Correlation Coefficient
+Exploding Gradient Problem
+Exploratory Data Analysis (EDA)
+Hierarchical Clustering
+Principal Component Analysis (PCA)
+Scatter Plot
+
+NLP and Language Models:
+
+Beam Search
+GPT (Generative Pre-trained Transformer)
+Language Modeling
+Masked Language Model (MLM)
 Natural Language Generation (NLG)
 Natural Language Processing (NLP)
-Neural Network Architecture
-Neuron
-Node
-Normal Distribution
-Normalization
-Normalization Layer
+Word Embeddings
+
+Computer Vision and Image Processing:
+
+Bilinear Interpolation
+Class Activation Map (CAM)
+Connectionist Temporal Classification (CTC)
+Convolution
+Image Recognition
+Image Segmentation
+Instance Segmentation
 Object Detection
-OpenAI Gym
-Optimizer
-PageRank Algorithm
-Parameter Sharing
-Partial Derivative
-Particle Swarm Optimization (PSO)
-Perceptron
-Permutation Test
-Policy Gradient
-Polynomial Regression
-Pooling Layer
-Precision-Recall Curve
-Prerequisite Rule
-Principal Component Analysis (PCA)
-Quadratic Loss
-Quantum Computing
-Quantum Neural Networks
-Random Search
-Ranking Loss
-Rank Loss
-RBM (Restricted Boltzmann Machine)
-Recurrent Neural Network (RNN)
-Reinforcement Learning
-ReLU (Rectified Linear Activation)
-RMSProp Optimization
-RNN (Recurrent Neural Network)
-ROC Curve
-Siamese Network
-Simulated Annealing
-Softmax Activation
-Squeeze-and-Excitation (SE) Block
-Stacking
-Stochastic Gradient Descent (SGD)
-Support Vector Machine (SVM)
-Target Variable
-TensorFlow
-Text Generation
-Time Series Forecasting
-Validation Set
-Vanishing Gradient Problem
-Weight Decay
-Xavier Initialization
 YOLO (You Only Look Once)
-Zero Padding
+
+Statistical Concepts:
+
+Bayesian Network
+Big Data
+Central Limit Theorem
+Correlation Coefficient
+Covariance
+Information Gain
+Mutual Information
+p-value
+Variance
