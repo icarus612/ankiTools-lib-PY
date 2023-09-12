@@ -3,14 +3,14 @@ from bs4 import BeautifulSoup as soup
 import re
 
 cards = []
-req = soup(requests.get('https://matplotlib.org/stable/api/pyplot_summary.html').content, 'html.parser')
-
-urls = [i.find('a')["href"] for i in req.find('ul', class_=['toctree-l1', 'active']).find_all(class_='toctree-l2')]
+req = soup(requests.get('https://matplotlib.org/stable/api/pyplot_summary.html').content, 'html5lib')
+urls = [i.find('a')["href"] for i in req.find('li', class_=['toctree-l1', 'current']).find_all(class_='toctree-l2')]
+print(req.find('li', class_='toctree-l1 active'), req.find('li', class_=['toctree-l1', 'active']))
 for url in urls:
 	try:
 		url_p = url.partition('.')[2][:-5]
 		print(f"Retrieving definition for {url_p}")
-		full = soup(requests.get(f"https://matplotlib.org/stable/api/{url}").content, 'html.parser')
+		full = soup(requests.get(f"https://matplotlib.org/stable/api/{url}").content, 'html5lib')
 		item = full.find('dl', class_="py")
 		full_m = item.find('dt', class_='sig-object')
 		front = f"<i>ndarray</i>.{full_m.find('span', {'sig-name'}).text}"
