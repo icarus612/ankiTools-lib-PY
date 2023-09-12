@@ -28,7 +28,9 @@ for url in urls:
 				extra_info = front + f"(<i>{', '.join(all_args)}</i>)"
 			front += f"(<i>{', '.join(req_args)}</i>)"
 		
-		back = f"<b>Ndarray {param_type}</b> used to {item.find('dd').find('p').text}".replace('\n', '')
+		back_txt = item.find('dd').find('p').text
+		back_txt = back_txt[0].lower() + back_txt[1:]
+		back = f"<b>Ndarray {param_type}</b> used to {back_txt}".replace('\n', ' ')
 		back = back[0].lower() + back[1:]
 		cards.append([front, back, '', extra_info])
 	except Exception as e:

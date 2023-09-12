@@ -3,9 +3,8 @@ from bs4 import BeautifulSoup as soup
 import re
 
 cards = []
-req = soup(requests.get('https://matplotlib.org/stable/api/pyplot_summary.html').content, 'html5lib')
-urls = [i.find('a')["href"] for i in req.find('li', class_=['toctree-l1', 'current']).find_all(class_='toctree-l2')]
-print(req.find('li', class_='toctree-l1 active'), req.find('li', class_=['toctree-l1', 'active']))
+req = soup(requests.get('https://matplotlib.org/stable/api/pyplot_summary.html').content, 'lxml')
+urls = [i.find('a')["href"] for i in req.select('li.toctree-l1.current')[0].find_all(class_='toctree-l2')]
 for url in urls:
 	try:
 		url_p = url.partition('.')[2][:-5]
@@ -13,21 +12,21 @@ for url in urls:
 		full = soup(requests.get(f"https://matplotlib.org/stable/api/{url}").content, 'html5lib')
 		item = full.find('dl', class_="py")
 		full_m = item.find('dt', class_='sig-object')
-		front = f"<i>ndarray</i>.{full_m.find('span', {'sig-name'}).text}"
+		front = f"plt.{full_m.find('span', {'sig-name'}).text}"
 		extra_info = ''
 		param_type = 'property'
-		if 'method' in [i.text for i in full.find_all('p')]:
+		if len(full_m.find_all("span", {"class": "sig-paren"})) > 0:
 			param_type = 'method'
 			all_args = [i.text for i in full_m.find_all(class_='sig-param')]			
-			req_args = [x for x in all_args if '=' not in x]
+			req_args = list(filter(lambda x: all([i not in ['=', '*'] for i in x]), all_args))
 			if len(all_args) != len(req_args):
 				extra_info = front + f"(<i>{', '.join(all_args)}</i>)"
 			front += f"(<i>{', '.join(req_args)}</i>)"
-		
-		back = f"<b>Ndarray {param_type}</b> used to {item.find('dd').find('p').text}".replace('\n', '')
-		back = back[0].lower() + back[1:]
+		back_txt = item.find('dd').find('p').text
+		back_txt = back_txt[0].lower() + back_txt[1:]
+		back = f"<b>Pyplot {param_type}</b> used to {back_txt}".replace('\n', ' ')
 		cards.append([front, back, '', extra_info])
 	except Exception as e:
 		print(e)
-with open(f'numpy_arrays.txt', 'w') as file:
+with open(f'matplotlib.txt', 'w') as file:
 	file.writelines([f'{" | ".join(i)} \n' for i in cards])
