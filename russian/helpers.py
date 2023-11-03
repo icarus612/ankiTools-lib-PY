@@ -55,8 +55,8 @@ def get_page_words(page=''):
 				r_idx = td.index(russian_el)
 				td_txt = [i.text.strip() for i in td][r_idx:]
 				item['russian'] = td_txt[0]
-				item['english'] = td_txt[1]
-				item['pos'] = td_txt[2]
+				item['pos'] = td_txt[1]
+				item['english'] = td_txt[2]
 				item['file_name'] = f'ic_mr_{item["russian"].replace(" ", "_")}.mp3'
 				words_lst.append(item)
 				print('Card created...\n')
