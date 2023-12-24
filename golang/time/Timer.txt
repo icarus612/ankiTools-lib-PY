@@ -1,2 +1,0 @@
-<i>Timer</i>.Reset(<i>d</i>) | <b>Time function</b> that changes the timer to expire after duration d. It returns true if the timer had been active, false if the timer had expired or been stopped.  |  | func (t *Timer) Reset(d Duration) bool 
-<i>Timer</i>.Stop(<i></i>) | <b>Time function</b> that prevents the Timer from firing. It returns true if the call stops the timer, false if the timer has already expired or been stopped. Stop does not close the channel, to prevent a read from the channel succeeding incorrectly.  |  | func (t *Timer) Stop() bool 

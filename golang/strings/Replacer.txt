@@ -1,2 +1,0 @@
-<i>Replacer</i>.Replace(<i>s</i>) | <b>Strings function</b> that returns a copy of s with all replacements performed.  |  | func (r *Replacer) Replace(s string) string 
-<i>Replacer</i>.WriteString(<i>w</i>, <i>s</i>) | <b>Strings function</b> that writes s to w with all replacements performed.  |  | func (r *Replacer) WriteString(w io.Writer, s string) (n int, err error) 

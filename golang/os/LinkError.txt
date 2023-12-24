@@ -1,2 +1,0 @@
-<i>LinkError</i>.Error(<i></i>) | <b>Os function</b> that ror records an error and the operation and file path that caused it.  |  | func (e *LinkError) Error() string 
-<i>LinkError</i>.Unwrap(<i></i>) | <b>Os function</b> that or records an error and the operation and file path that caused it.  |  | func (e *LinkError) Unwrap() error 

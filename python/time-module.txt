@@ -1,9 +1,0 @@
-time.time() | <b>Time method</b> used to In Python, the time() function returns the number of seconds passed since epoch (the point where time begins).
-time.ctime() | <b>Time method</b> used to The time.ctime() function in Python takes seconds passed since epoch as an argument and returns a string representing local time.
-time.sleep() | <b>Time method</b> used to The sleep() function suspends (delays) execution of the current thread for the given number of seconds.
-time.localtime() | <b>Time method</b> used to The localtime() function takes the number of seconds passed since epoch as an argument and returns struct_time (a tuple containing 9 elements corresponding to struct_time) in local time.
-time.gmtime() | <b>Time method</b> used to The gmtime() function takes the number of seconds passed since epoch as an argument and returns struct_time in UTC.
-time.mktime() | <b>Time method</b> used to The mktime() function takes struct_time (a tuple containing 9 elements corresponding to struct_time) as an argument and returns the seconds passed since epoch in local time.
-time.asctime() | <b>Time method</b> used to In Python, the asctime() function takes struct_time as an argument and returns a string representing it.
-time.strftime() | <b>Time method</b> used to The strftime() function takes struct_time (or tuple corresponding to it) as an argument and returns a string representing it based on the format code used. For example,
-time.strptime() | <b>Time method</b> used to The strptime() function parses a string representing time and returns struct_time.

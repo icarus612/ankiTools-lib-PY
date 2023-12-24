@@ -1,1 +1,0 @@
-<i>Month</i>.String(<i></i>) | <b>Time function</b> that returns the English name of the month ("January", "February", ...).  |  | func (m Month) String() string 

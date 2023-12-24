@@ -1,1 +1,0 @@
-<i>Location</i>.String(<i></i>) | <b>Time function</b> that returns a descriptive name for the time zone information, corresponding to the name argument to LoadLocation or FixedZone.  |  | func (l *Location) String() string 

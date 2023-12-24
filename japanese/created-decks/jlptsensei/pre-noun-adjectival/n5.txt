@@ -1,8 +1,0 @@
-あの | ano | that | [sound:ic_nrkt_ano.mp3]
-ちいさな | chiisana | small; little; tiny​ | [sound:ic_nrkt_chiisana.mp3]
-どんな | donna | what kind of; what sort of | [sound:ic_nrkt_donna.mp3]
-どの | dono | which | [sound:ic_nrkt_dono.mp3]
-こんな | konna | such; like this​ | [sound:ic_nrkt_konna.mp3]
-この | kono | this​ | [sound:ic_nrkt_kono.mp3]
-おおきな | ookina | big; large; great​ | [sound:ic_nrkt_ookina.mp3]
-その | sono | that | [sound:ic_nrkt_sono.mp3]

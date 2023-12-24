@@ -1,5 +1,0 @@
-<i>IntSlice</i>.Len(<i></i>) | <b>Sort function</b> that ch returns the result of applying SearchInts to the receiver and x.  |  | func (x IntSlice) Len() int 
-<i>IntSlice</i>.Less(<i>i</i>, <i>j</i>) | <b>Sort function</b> that h returns the result of applying SearchInts to the receiver and x.  |  | func (x IntSlice) Less(i, j int) bool 
-<i>IntSlice</i>.Search(<i>x</i>) | <b>Sort function</b> that returns the result of applying SearchInts to the receiver and x.  |  | func (p IntSlice) Search(x int) int 
-<i>IntSlice</i>.Sort(<i></i>) | <b>Sort function</b> that is a convenience method: x.Sort() calls Sort(x).  |  | func (x IntSlice) Sort() 
-<i>IntSlice</i>.Swap(<i>i</i>, <i>j</i>) | <b>Sort function</b> that plementation of Interface can be sorted by the routines in this package. The methods refer to elements of the underlying collection by integer index.  |  | func (x IntSlice) Swap(i, j int) 

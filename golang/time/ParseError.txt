@@ -1,1 +1,0 @@
-<i>ParseError</i>.Error(<i></i>) | <b>Time function</b> that returns the string representation of a ParseError.  |  | func (e *ParseError) Error() string 

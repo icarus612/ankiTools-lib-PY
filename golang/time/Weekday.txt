@@ -1,1 +1,0 @@
-<i>Weekday</i>.String(<i></i>) | <b>Time function</b> that returns the English name of the day ("Sunday", "Monday", ...).  |  | func (d Weekday) String() string 
